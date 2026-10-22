@@ -84,7 +84,8 @@ Proyecto completo + retainer
 
 | Caso | Cifra | Antes de usarlo |
 |---|---|---|
-| Despacho legal ✅ real | $15,000 MXN, pagado un miércoles → **5 citas confirmadas el lunes** → ~$90,000 MXN posibles en un día | Permiso del cliente para nombrarlo; si no, anonimizado. |
+| Despacho legal A ✅ real | $15,000 MXN, pagado un miércoles → **5 citas confirmadas el lunes** → ~$90,000 MXN posibles en un día | Permiso del cliente para nombrarlo; si no, anonimizado. |
+| Despacho legal B ✅ real (otro cliente) | **183 conversaciones → 6 clientes en 23 días** | Permiso del cliente. En contenido, que no parezca el mismo caso: di "otro despacho" o usa el giro (laboral, familiar, etc.). |
 | Taller automotriz | Gente llegando **3 días después** de arrancar, con videos de IA "en los que la gente se sentía identificada" | Cifra exacta de citas o ventas |
 | Asociación deportiva | **50–60 mil seguidores en un año**; el reto ahora es vender patrocinios | Cifra exacta por red |
 | Competencias deportivas ✅ real | **~200 piezas en 3 días → 10 millones de vistas orgánicas** | — |

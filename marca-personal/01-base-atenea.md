@@ -30,7 +30,8 @@ Lo que va entre corchetes **[ ]** lo tienes que poner tú. No lo inventé porque
 *Lo viral es tu prueba, no tu posicionamiento. Tu valor está en el diagnóstico, en el orden y en tu red de especialistas (transcript 64).*
 
 **Tu prueba (lo que nadie más puede decir):**
-- Despacho legal: **$15,000 MXN** por el sistema de IA, se instala un miércoles y el lunes hay **5 citas confirmadas**, con unos **$90,000 MXN** posibles en un solo día (transcript 75).
+- Despacho legal A: **$15,000 MXN** por el sistema de IA, se instala un miércoles y el lunes hay **5 citas confirmadas**, con unos **$90,000 MXN** posibles en un solo día (transcript 75).
+- Despacho legal B (otro cliente): **183 conversaciones → 6 clientes en 23 días** (kit de LinkedIn).
 - Taller automotriz recién abierto: **gente llegando 3 días después** del arranque.
 - Asociación deportiva: **50–60 mil seguidores en un año** entre sus redes.
 - 3 marcas arrancadas en una semana con un sistema 100% automatizado con IA.
