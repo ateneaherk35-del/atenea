@@ -17,7 +17,7 @@ Lo que va entre corchetes **[ ]** lo tienes que poner tú. No lo inventé porque
 | 3 | **Casos de clientes.** Los números más fuertes (10M de vistas, 100 mil visitas al perfil en un día) son de clientes. | Sin autorización, no pueden ir con nombre. | Contarlos anonimizados ("una clienta con un evento deportivo") hasta tener el sí. |
 | 4 | **Las cifras "100, 150, 300" de tu cuenta.** En el material de VS no queda claro si son miles de vistas. | Una cifra mal dicha en video es lo primero que te cuestionan. | Confirmar la unidad con tus screenshots. |
 | 5 | **El video "SOY ANA CELINA".** Está en Drive (subido hoy), pero no pude verlo desde aquí. | Si es el video de presentación de ella, el tuyo sigue el mismo formato. | Tu guion está en la sección 4.1. Ajústalo si el suyo tiene otra estructura. |
-| 6 | **¿De quién son los 10 millones?** En el 75 dices que a una asociación deportiva la llevaron a 50–60 mil seguidores en un año. | Si los 10M son de esa misma asociación, es un solo caso contado dos veces. | Confirmar si es el mismo cliente. |
+| 6 | ~~**¿Los 10 millones son reales?**~~ **Confirmado:** sí. El despacho legal también es real. | — | Hay más casos de éxito por documentar: ver `02-metodo-y-transcripts.md`, sección 4. |
 | 7 | **¿Cuánto de lo personal entra?** En el 75 hablas de fe, de tu familia, de llorar en la mañana y de COVID, y dices groserías. | Es lo que más conecta y también lo que más divide. | Lo personal sí, en el pilar "Atenea". Groserías: tú decides el filtro (sugerencia: en video sí, en texto y carrusel no). |
 
 ---
@@ -243,7 +243,7 @@ Todo lo que está aquí es **hipótesis**. Valídalo con 3 clientes reales por a
 
 *Reescrito con lo que contaste en los transcripts 64 y 75. Tu valor es el orden, no lo viral.*
 
-> Soy Atenea. Tengo 24 años y mi agencia ha tenido cuatro nombres.
+> Soy Atenea. Tengo 25 años y mi agencia ha tenido cuatro nombres.
 >
 > Empecé con Two Hands Studio, recién salida del Tec. Hacíamos lo que sabíamos hacer: redes y campañas. Luego fue MercaMexa, y yo quería ser la mejor corriendo campañas de Meta.
 >

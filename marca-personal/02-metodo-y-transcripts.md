@@ -40,7 +40,16 @@ Lo dijiste así en el 64: *"No me he sentado a ponerle un nombre ni a numerar la
 
 **Tu promesa** (64): el marketing existe para aumentar la rentabilidad del negocio. Tu trabajo termina cuando el embudo funciona y hay una mejora visible de cómo llegó la empresa a cómo quedó. La pauta y el contenido nunca terminan porque "siempre hay un mundial, una película, un evento".
 
-**Pendiente:** el nombre. En el 64 aparece "MAP" sin definir. Si se queda, que cada letra sea una fase real; si no, "de atrás para adelante" ya funciona como nombre en video.
+**El nombre: todavía no existe** (confirmado). Opciones, todas salidas de tus propias frases:
+
+| Opción | De dónde sale | A favor | En contra |
+|---|---|---|---|
+| **De atrás para adelante** (recomendada para empezar) | "Hay que trabajar de atrás para adelante" (64) | Ya lo dices en tus juntas y se entiende sin explicarlo. Funciona en video. | Es una frase, no una marca registrable. |
+| **Piso firme** | "Tienes hoyos en tu piso" (64) | Visual y muy mexicana; conecta con la metáfora de lesionarte por correr. | Se confunde con el programa de gobierno del mismo nombre. |
+| **Orden correcto** | "Tu valor está en establecer el orden correcto" (64) | Dice exactamente tu diferenciador. | Suena más a consultoría que a contenido. |
+| **MĒTODO** a secas | Tu marca | No hay que inventar nada: el método *es* la empresa. | "El método de MĒTODO" suena repetido. |
+
+**Recomendación:** no lo bautices todavía. Usa "de atrás para adelante" en tus videos durante 4–6 semanas y ve qué frase repite la gente en los comentarios y en tus llamadas. El nombre que pegue es el que se queda.
 
 ---
 
@@ -75,11 +84,38 @@ Proyecto completo + retainer
 
 | Caso | Cifra | Antes de usarlo |
 |---|---|---|
-| Despacho legal | $15,000 MXN, pagado un miércoles → **5 citas confirmadas el lunes** → ~$90,000 MXN posibles en un día | ¿Es el mismo despacho del kit de LinkedIn (183 conversaciones, 6 clientes, 23 días)? Permiso del cliente. |
+| Despacho legal ✅ real | $15,000 MXN, pagado un miércoles → **5 citas confirmadas el lunes** → ~$90,000 MXN posibles en un día | Permiso del cliente para nombrarlo; si no, anonimizado. |
 | Taller automotriz | Gente llegando **3 días después** de arrancar, con videos de IA "en los que la gente se sentía identificada" | Cifra exacta de citas o ventas |
-| Asociación deportiva | **50–60 mil seguidores en un año**; el reto ahora es vender patrocinios | ¿Es el caso de los 10M? |
+| Asociación deportiva | **50–60 mil seguidores en un año**; el reto ahora es vender patrocinios | Cifra exacta por red |
+| Competencias deportivas ✅ real | **~200 piezas en 3 días → 10 millones de vistas orgánicas** | — |
 | 3 marcas en una semana | Arranque completo con un sistema 100% automatizado | Nombres anonimizados |
 | Marca de alto ticket (medicina estética) | **No está pegando**: falta confianza en la marca | Úsalo como historia honesta, sin nombre. Es contenido que casi nadie se atreve a publicar. |
+
+### Casos por documentar
+
+Tienes más casos de éxito que todavía no están aquí. Para que cada uno se convierta en carrusel + video, llena esto por caso (5 minutos cada uno, o mándame un audio y lo transcribo):
+
+| Campo | Ejemplo (despacho legal) |
+|---|---|
+| Giro y ciudad | Despacho legal, Tijuana |
+| Cómo llegó (qué te pidió) | "Quiero más clientes" |
+| Qué encontraste en el diagnóstico | Contestaban mensajes a mano y se perdían los de fin de semana |
+| Qué hicieron, en qué fase del método | Fase 3: agente de IA que califica y agenda |
+| Inversión y tiempo | $15,000 MXN, ~3 días de instalación |
+| Resultado con número | 5 citas confirmadas en un fin de semana |
+| Qué dijo el cliente (textual) | [ ] |
+| ¿Se puede nombrar? | [ ] |
+| Pruebas (screenshot, video) | [ ] |
+
+| # | Caso | Giro | Resultado | ¿Nombre? |
+|---|---|---|---|---|
+| 1 | [ ] | [ ] | [ ] | [ ] |
+| 2 | [ ] | [ ] | [ ] | [ ] |
+| 3 | [ ] | [ ] | [ ] | [ ] |
+| 4 | [ ] | [ ] | [ ] | [ ] |
+| 5 | [ ] | [ ] | [ ] | [ ] |
+
+Idealmente, que cubran los tres avatares: un negocio que nunca había hecho marketing (Sofía), uno que venía de quemar agencias (Ricardo) y un profesionista de alto ticket (Mariana).
 
 ---
 
@@ -228,8 +264,10 @@ Mismas reglas de voz que en `01`: historia real, sin frases de copy, sin pregunt
 
 ## 9. Pendientes
 
-- [ ] Confirmar tu edad para el video de presentación (en el 64 dices 24; en el 75 la frase "casi 27" no queda clara).
-- [ ] Nombre del método: ¿"MAP", "de atrás para adelante" u otro?
-- [ ] Permisos para los casos del despacho, el taller y la asociación.
+- [x] Edad: 25 años
+- [x] 10M y despacho legal: confirmados como reales
+- [ ] Nombre del método: probar "de atrás para adelante" 4–6 semanas (sección 2)
+- [ ] Documentar los otros casos de éxito (sección 4)
+- [ ] Permisos para nombrar a los clientes
 - [ ] Decidir si el podcast de Baja California es un proyecto aparte o el formato de la Bitácora.
 - [ ] Probar el flujo "Comenta SESIÓN" con una cuenta que no te siga antes de usarlo como CTA.
