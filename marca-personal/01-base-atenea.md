@@ -12,20 +12,28 @@ Lo que va entre corchetes **[ ]** lo tienes que poner tú. No lo inventé porque
 
 | # | Qué falta | Por qué importa | Recomendación |
 |---|---|---|---|
-| 1 | **¿Con qué marca firmas?** El acuerdo de Ana Celina dice *MercaMexa \| Marketing Estratégico*; los portales de clientes de 2026 dicen *MĒTODO*. | La bio, el link y el CTA tienen que llevar a un solo lugar. | Marca personal = **Atenea Hernández**. Agencia = la que esté viva hoy. Una sola en la bio. |
-| 2 | **¿Qué vendes desde la marca personal?** Hoy hay dos escalas: campaña de Meta Ads a $5,000 MXN/mes (Ana Celina) y proyecto completo de ~$45,750 MXN + retainer de $11,125 MXN/mes. | Cada avatar de abajo cae en una de las dos. Si no eliges, los anuncios mezclan precios. | Pauta → oferta de entrada. Orgánico → posiciona la oferta grande. Confirmar los precios de 2026. |
+| 1 | ~~**¿Con qué marca firmas?**~~ **Resuelto (transcripts 64 y 75):** la marca es **MĒTODO**, que antes fue MercaMexa, Two Hands Studio y Atenea Kurevelis Consultora. "No somos una agencia de marketing." | — | Marca personal = **Atenea Hernández** · Fundadora de MĒTODO. |
+| 2 | ~~**¿Qué vendes desde la marca personal?**~~ **Resuelto (transcript 75):** escalera de oferta = comenta *SESIÓN* → 15 min gratis → **consultoría de 90 min por $5,000 MXN / US$270** → **sistema de adquisición y agendamiento con IA por $15,000 MXN** → proyecto completo + retainer. | — | Ver `02-metodo-y-transcripts.md`, sección 3. |
 | 3 | **Casos de clientes.** Los números más fuertes (10M de vistas, 100 mil visitas al perfil en un día) son de clientes. | Sin autorización, no pueden ir con nombre. | Contarlos anonimizados ("una clienta con un evento deportivo") hasta tener el sí. |
 | 4 | **Las cifras "100, 150, 300" de tu cuenta.** En el material de VS no queda claro si son miles de vistas. | Una cifra mal dicha en video es lo primero que te cuestionan. | Confirmar la unidad con tus screenshots. |
 | 5 | **El video "SOY ANA CELINA".** Está en Drive (subido hoy), pero no pude verlo desde aquí. | Si es el video de presentación de ella, el tuyo sigue el mismo formato. | Tu guion está en la sección 4.1. Ajústalo si el suyo tiene otra estructura. |
+| 6 | **¿De quién son los 10 millones?** En el 75 dices que a una asociación deportiva la llevaron a 50–60 mil seguidores en un año. | Si los 10M son de esa misma asociación, es un solo caso contado dos veces. | Confirmar si es el mismo cliente. |
+| 7 | **¿Cuánto de lo personal entra?** En el 75 hablas de fe, de tu familia, de llorar en la mañana y de COVID, y dices groserías. | Es lo que más conecta y también lo que más divide. | Lo personal sí, en el pilar "Atenea". Groserías: tú decides el filtro (sugerencia: en video sí, en texto y carrusel no). |
 
 ---
 
 ## 1. Posicionamiento
 
-**Quién eres en una línea:**
-> Estratega de marketing en Tijuana. Hago que los negocios se vean, se reconozcan y vendan, con contenido que la gente sí quiere ver.
+**Quién eres en una línea** (reescrita con tus palabras de los transcripts):
+> Growth strategist y fundadora de MĒTODO. Diagnostico tu negocio y pongo las cosas en el orden correcto, de atrás para adelante, para que sea más rentable.
+
+*Lo viral es tu prueba, no tu posicionamiento. Tu valor está en el diagnóstico, en el orden y en tu red de especialistas (transcript 64).*
 
 **Tu prueba (lo que nadie más puede decir):**
+- Despacho legal: **$15,000 MXN** por el sistema de IA, se instala un miércoles y el lunes hay **5 citas confirmadas**, con unos **$90,000 MXN** posibles en un solo día (transcript 75).
+- Taller automotriz recién abierto: **gente llegando 3 días después** del arranque.
+- Asociación deportiva: **50–60 mil seguidores en un año** entre sus redes.
+- 3 marcas arrancadas en una semana con un sistema 100% automatizado con IA.
 - ~200 piezas en 3 días en unas competencias deportivas → **10 millones de visualizaciones 100% orgánicas**.
 - Clientes con eventos: **mínimo 100 mil visitas al perfil en un día**.
 - Tu cuenta: **6 millones de vistas con un video que sí te trajo ventas**.
@@ -38,6 +46,10 @@ Lo que va entre corchetes **[ ]** lo tienes que poner tú. No lo inventé porque
 3. No tienes que bailar ni hacer trends embarrassing para hacer ruido.
 4. Tradición e innovación: abraza lo que tu marca ya representa y siembra hoy en los clientes de dentro de 5 a 10 años.
 5. Cada contenido tiene una meta: que me conozcan → que me reconozcan → que se interesen → que me compren.
+6. **El marketing existe para aumentar la rentabilidad del negocio. Punto.** No somos "los de redes".
+7. **De atrás para adelante:** primero los cimientos, después el ruido. Si tu piso tiene hoyos, por más que corras te vas a lastimar.
+8. **Ayudar no es vender.** Y Tijuana no te conoce aunque vayas a todos los eventos de networking.
+9. **Prefiero que no me necesites:** te enseño a construir a tus propios agentes de IA.
 
 ---
 
@@ -50,6 +62,8 @@ Lo que va entre corchetes **[ ]** lo tienes que poner tú. No lo inventé porque
 | **Opinión** | Lo que piensas y otros no dicen | Que me reconozcan | "100 mil vistas me vendieron más que 8 millones" |
 | **Método** | Cómo trabajas, paso a paso, sin regalar todo | Que me compren | Cómo armo un evento para que "todo el internet esté bañado de tus redes" |
 | **Atenea** | Tu historia, Tijuana, BNI, la nerda del mkt | Que me reconozcan | Qué aprendí siendo presidenta de BNI |
+| **Bitácora** (nuevo) | El formato del transcript 75: qué hicimos esta semana, qué me chocó, qué aprendí. "Chavos del futuro." | Que me reconozcan | Episodio largo en YouTube/Substack → 5–8 cortos |
+| **Detrás de un diagnóstico** (nuevo) | Las preguntas que haces en una sesión de descubrimiento (transcript 71), sin datos del cliente | Que me compren | "Le pregunté a un founder qué palabra usaría si le prohibían decir *healing*" |
 
 ---
 
@@ -57,6 +71,14 @@ Lo que va entre corchetes **[ ]** lo tienes que poner tú. No lo inventé porque
 
 Mismo formato que Tu Lana: un avatar por nivel de conciencia y 8 secciones por avatar.
 Todo lo que está aquí es **hipótesis**. Valídalo con 3 clientes reales por avatar (Zoe Gamboa, Ana Celina, Dra. Edna Robles, Maricruz Cuevas, Casa Maraver, Adán Trillo) antes de pautar.
+
+**Tu propia segmentación (transcript 64)** cambia qué le vendes a cada uno:
+
+| Tipo | Quién es aquí | Qué le vendes | Nota |
+|---|---|---|---|
+| **Nunca ha hecho marketing, ocupado y con confianza** | Sofía | Lo hacemos por ti: sistema de IA de $15,000 → proyecto | "Ahí es donde a mí me interesa estar." |
+| **Lastimado** (ya quemó agencias) | Ricardo | Consultoría de 90 min ($5,000) o "te enseño a construir tus agentes" | "Los lastimados me cuestan mucho trabajo." No es el avatar de pauta principal. |
+| **Alto ticket, comparando** | Mariana | Proyecto completo + retainer | En el 75: una marca nueva de alto ticket (medicina estética) "no pega" por falta de confianza. Este avatar necesita más prueba antes de pautar. |
 
 ---
 
@@ -88,6 +110,7 @@ Todo lo que está aquí es **hipótesis**. Valídalo con 3 clientes reales por a
   3. Siente que tiene que bailar o hacer el ridículo para que la vean
   4. No tiene tiempo para producir
   5. Ya le pagó a alguien que "le manejaba las redes" y no pasó nada
+  6. **No sabe sus números**: cuánta gente entra, de dónde viene, su ticket promedio. "¿Cuánto más quieres que venga la gente si no sabes cuánta está viniendo ahorita?" (transcript 64)
 
 **5. Perfil de deseo**
 - **Gran deseo secreto:** "Que me escriban sin que yo tenga que andar ofreciendo. Que alguien llegue y me diga 'te vi en Instagram'."
@@ -96,7 +119,7 @@ Todo lo que está aquí es **hipótesis**. Valídalo con 3 clientes reales por a
 **6. Comportamiento de compra**
 - **Detonantes:** (1) un caso de alguien como ella que pasó de nada a mensajes, (2) entender *por qué* no le funciona, (3) que no la hagan sentir tonta
 - **Ya compró:** cursos de redes, una community manager barata, boost de publicaciones
-- **Ticket posible:** [$3,000–$6,000 MXN/mes]
+- **Ticket posible:** sistema de adquisición y agendamiento con IA, **$15,000 MXN**. *(Tú misma dices que con $5,000 de presupuesto no se puede hacer mucho, así que no le bajes de ahí.)*
 - **Canal:** DM de Instagram y WhatsApp
 
 **7. Deseos**
@@ -146,7 +169,8 @@ Todo lo que está aquí es **hipótesis**. Valídalo con 3 clientes reales por a
 
 **6. Comportamiento de compra**
 - **Detonantes:** (1) alguien que entiende el techo de los referidos, (2) casos con cifras, (3) una propuesta que hable de ventas y no de seguidores
-- **Ticket posible:** [proyecto ~$45,000 MXN + retainer ~$11,000 MXN/mes]
+- **Ticket posible:** entrada con **consultoría de 90 min ($5,000 MXN)**; si confía, proyecto ~$45,000 MXN + retainer ~$11,000 MXN/mes
+- **Objeción típica:** "se me hace caro". Tu respuesta (transcript 75): precio vs. costo. "¿Cuánto te cuesta no hacerlo? Te cobro 15 mil para ponerte 90 mil de citas en un día."
 - **Canal:** WhatsApp, llamada, junta presencial
 
 **7. Deseos**
@@ -217,21 +241,25 @@ Todo lo que está aquí es **hipótesis**. Valídalo con 3 clientes reales por a
 
 **Formato:** vertical, 60–75 seg, a cámara, sin trends. Va fijado en Instagram y TikTok.
 
-> Soy Atenea, y hace [año] me tocó hacer algo que casi nadie hace: subir como 200 contenidos en tres días.
+*Reescrito con lo que contaste en los transcripts 64 y 75. Tu valor es el orden, no lo viral.*
+
+> Soy Atenea. Tengo 24 años y mi agencia ha tenido cuatro nombres.
 >
-> Eran unas competencias deportivas en [ciudad]. Grabábamos, editábamos y subíamos mientras pasaba todo. Historias, reels, colabs con cada persona que estaba ahí.
+> Empecé con Two Hands Studio, recién salida del Tec. Hacíamos lo que sabíamos hacer: redes y campañas. Luego fue MercaMexa, y yo quería ser la mejor corriendo campañas de Meta.
 >
-> En esos tres días llegamos a 10 millones de visualizaciones. Orgánicas, sin pagar un peso de pauta.
+> Y un día salió la noticia de que ChatGPT ya puede manejar campañas de Meta. Ahí entendí que si mi valor era picarle a un botón, ya no tenía valor.
 >
-> Y te voy a ser honesta, lo que más aprendí no fue eso. Fue que un video mío de 100 mil vistas me vendió más que uno de 8 millones. Porque el de 100 mil le hablaba a la persona correcta.
+> Hoy se llama MĒTODO. Porque cada vez que alguien me dice "quiero más clientes, córreme una campaña", yo le pregunto cuánto vende, de dónde le llega la gente y cuál es su ticket promedio. Y casi nadie sabe.
 >
-> A eso me dedico. Estrategia de marketing para que tu negocio se vea, la gente lo reconozca y te compre. Sin que tengas que bailar en TikTok.
+> Entonces trabajo de atrás para adelante. Primero los cimientos y después el ruido.
 >
-> Soy de Tijuana, fui presidenta de un capítulo de BNI, y aquí te cuento lo que pasa detrás de los números.
+> No soy "la de redes". Mi trabajo es que tu negocio sea más rentable.
+>
+> Soy de Tijuana, y aquí te cuento lo que hacemos cada semana.
 >
 > Sígueme.
 
-*Regla: aprende el arranque y el cierre; lo de en medio cuéntalo con tus palabras.*
+*Regla: aprende el arranque y el cierre; lo de en medio cuéntalo con tus palabras. La versión anterior (centrada en los 10M) se puede usar como pieza del pilar "Detrás de los números".*
 
 ---
 
@@ -411,7 +439,10 @@ Menor presupuesto, más casual. CTA solo **"Sígueme"**.
 - **No** preguntas abiertas como gancho.
 - **No** listas tipo "jugada uno, dos, tres" en video (en carrusel sí).
 - Voz cercana y profesional: "o sea", "pues", "la nerda del mkt" sí caben.
-- CTA orgánico: solo "Sígueme" o nada. CTA de pauta: WhatsApp.
+- CTA orgánico de alcance: solo "Sígueme" o nada.
+- CTA orgánico de conversión: **"Comenta SESIÓN"**. Lo recibe tu agente de IA, que agenda los 15 minutos (transcript 75). Úsalo solo en las piezas de los pilares Método y Detrás de un diagnóstico.
+- CTA de pauta: WhatsApp o la palabra clave, uno por anuncio.
+- Frases tuyas que sí se dicen en voz alta: "de atrás para adelante", "tienes hoyos en tu piso", "ayudar no es vender", "Tijuana no te conoce", "pícale a los botones", "prefiero que no me necesites". Más en `02-metodo-y-transcripts.md`.
 
 ---
 
