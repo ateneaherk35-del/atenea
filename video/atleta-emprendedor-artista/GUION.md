@@ -1,8 +1,7 @@
 # Atleta → Emprendedor → Artista — Video storytelling (motion graphics)
 
 **Fuente:** reel de Instagram `DeiS9s1P2al` ("This is so niche that if you found this it was meant for you"), 98 s, en inglés, formato *talking head*.
-**Resultado:** `atleta-emprendedor-artista.mp4` — 1080×1920 (9:16), 30 fps, 1 min 52 s. Solo motion graphics + banda sonora original sintetizada. Sin locución.
-
+**Resultado:** `atleta-emprendedor-artista.mp4` — 1080×1920 (9:16), 30 fps, 1 min 46 s. Solo motion graphics estilo póster editorial + banda sonora original sintetizada (100 BPM). Sin locución.
 ---
 
 ## 1. Transcripción original (EN)
@@ -17,49 +16,28 @@
 
 ## 3. Guion storytelling (lo que aparece en pantalla)
 
-Estructura en 3 actos + giro + revelación. Cada acto tiene su color, su mundo visual y su música.
+**Dirección visual:** pósters editoriales que cortan al ritmo de la música (cada corte cae en el pulso de 100 BPM). Plantillas inspiradas en las referencias:
 
-| # | Bloque | Texto en pantalla | Motion / sonido |
-|---|---|---|---|
-| 0 | **GANCHO** | *Escúchame.* | Impacto + flash, partículas |
-| | | Hay un tipo de persona que **NUNCA** estará satisfecha | Palabras con blur-in escalonado |
-| | | haciendo **UNA** sola cosa en su vida. | "UNA" gigante, aberración cromática, sacudida |
-| | | Y casi siempre sigue el *mismo camino.* | |
-| I | **EL CUERPO** (rojo) | Capítulo "I · EL CUERPO" | Riser → impacto, el número se rellena, light leak |
-| | | Todo empieza con el **DEPORTE.** | Fondo: electrocardiograma + barras, latido en la música |
-| | | Creces jugando. Compitiendo. Y un día te *enamoras* de entrenar. | |
-| | | ENTRENAS. / SUDAS. / ROMPES / **TUS LÍMITES.** | Cortes rápidos palabra por palabra con golpe |
-| | | Ves lo que pasa cuando te esfuerzas *cada día.* | |
-| | | Y te vuelves *adicto* a la sensación de → **PROGRESO** | Barra 0→100 % + tono ascendente → impacto |
-| | | Pero un día aparece una *pregunta.* | Swell |
-| | | «Si pude transformar mi cuerpo con *disciplina* y *repetición*… ¿qué más puedo **TRANSFORMAR?**» | Impacto |
-| II | **LA MENTE** (dorado) | Capítulo "II · LA MENTE" | Fondo: red de nodos + grid en perspectiva + gráfica subiendo; arpegios |
-| | | Te obsesionas con los **NEGOCIOS.** | |
-| | | LIBROS. / PODCASTS. / **REFERENTES.** | Cortes rápidos |
-| | | Y sueñas con construir algo *tuyo.* | |
-| | | Entonces descubres que lo que te enseñó el *deporte*… | |
-| | | DISCIPLINA / COMPETENCIA / **GRATIFICACIÓN APLAZADA** | Lista que se apila con wipes |
-| | | …encaja *perfecto* con **EMPRENDER.** | Impacto |
-| | **GIRO** | Pero aquí es donde se pone *interesante.* | Swell |
-| | | Amas los negocios. Amas el dinero. Pero hay otra parte de ti *que no encaja.* | |
-| III | **EL ALMA** (violeta) | Capítulo "III · EL ALMA" | Fondo: ondas fluidas + bokeh; pads maj7 + campanas |
-| | | MÚSICA. / ARTE. / CINE. / ESCRITURA. / **DISEÑO.** | Cortes rápidos |
-| | | Te fascinan la filosofía, la psicología… *cómo piensa la gente.* | |
-| | | No solo quieres ganar dinero. Quieres **CREAR.** | Impacto |
-| | | Crear algo *hermoso.* Vivir *todo* lo que la vida ofrece. Entender el *mundo entero.* | |
-| ⚠ | **CONFLICTO** (gris) | Pero es *confuso.* | Impacto grave, ondas de presión, reloj |
-| | | Todos te dicen: «Elige una sola cosa.» ×11 | Eco de voces que se amontonan |
-| | | Y tú no te imaginas una vida entera siendo *solo una cosa.* | |
-| ✦ | **REVELACIÓN** (los 3 colores) | Hasta que lo *entiendes.* | Riser → impacto, cambio a tonalidad mayor |
-| | | No ~~COMPITEN~~ entre sí. | Tachado animado |
-| | | Se *complementan.* | |
-| | | Son tres partes de la *misma persona.* | 3 círculos que convergen (Venn) |
-| | | Triángulo: **ATLETA** (cuerpo) · **EMPRENDEDOR** (mente) · **ARTISTA** (alma) → en el centro: *tú.* | Campanas por vértice + golpe final |
-| | **CIERRE** | Si toda tu vida sentiste que tenías demasiados intereses para caber en *una sola categoría…* | |
-| | | acabas de encontrar a *tu gente.* | Impacto grande |
-| | **CTA** | Si esto fue para ti, *guárdalo.* · ATLETA · EMPRENDEDOR · ARTISTA | Fundido a negro |
+| Plantilla | Look |
+|---|---|
+| `cream` / `red` | Papel crema con letras condensadas rojas gigantes (o al revés), subrayado a mano |
+| `sky` | Cielo azul, colina verde y sol; texto grotesk apretado en amarillo pálido, escalonado; esquina "cuerpo / mente / alma" |
+| `grass` | Pasto verde desenfocado con grano; texto blanco ultra-negro justificado a todo el ancho |
+| `track` | Pista de atletismo azul en perspectiva que avanza; texto manuscrito blanco que se escribe solo |
+| `pink` | Ventana de herrería rosa sobre negro, flor en halftone; grotesk en minúscula + palabra en script |
+| `list` | Una palabra a pantalla completa por golpe, cada una con color distinto |
 
-Recurso narrativo extra: un **tracker** arriba (ATLETA — EMPRENDEDOR — ARTISTA) se va encendiendo a medida que avanza la historia, para que el espectador sienta progreso y se quede hasta el final.
+Siempre presentes: sticker giratorio "ATLETA · EMPRENDEDOR · ARTISTA", grano de impresión y jitter tipo stop-motion.
+
+| Bloque | Pósters (texto en pantalla) |
+|---|---|
+| **GANCHO** | ESCÚCHAME. → HAY UN TIPO DE PERSONA QUE NUNCA SE CONFORMA → CON HACER **UNA** SOLA COSA. → *Y casi siempre sigue el mismo camino.* |
+| **ACTO I · EL CUERPO** | *todo empieza con el deporte* (pista) → *creces jugando, compitiendo… y un día te enamoras de entrenar* → ENTRENAS. / SUDAS. / ROMPES / TUS LÍMITES. → VES LO QUE PASA CUANDO TE ESFUERZAS CADA DÍA → Y TE VUELVES ADICTO A LA SENSACIÓN DE [barra 0→100 %] **PROGRESO** → *Pero un día aparece una pregunta* → «SI PUDE TRANSFORMAR MI CUERPO CON DISCIPLINA… ¿QUÉ MÁS PUEDO TRANSFORMAR?» |
+| **ACTO II · LA MENTE** | TE OBSESIONAS CON LOS NEGOCIOS → LIBROS. / PODCASTS. / REFERENTES. → *Sueñas con construir algo tuyo* → *y descubres que el deporte ya te lo había enseñado todo* → ✓ DISCIPLINA ✓ COMPETENCIA ✓ GRATIFICACIÓN APLAZADA → Y TODO ENCAJA CON EMPRENDER. → *pero aquí se pone* **interesante** → AMAS EL DINERO. PERO HAY OTRA PARTE DE TI QUE NO ENCAJA |
+| **ACTO III · EL ALMA** | *y entonces despierta* **el alma** → MÚSICA. / ARTE. / CINE. / ESCRITURA. / DISEÑO. → *Te fascina la filosofía, la psicología, cómo piensa la gente* → NO SOLO QUIERES GANAR DINERO. → *quieres* **crear** → *crear algo hermoso. vivirlo todo. entender el mundo entero.* |
+| **CONFLICTO** (la música cae) | PERO ES CONFUSO. → TODOS TE DICEN: «ELIGE UNA SOLA COSA.» ×11 → Y TÚ NO TE IMAGINAS UNA VIDA SIENDO SOLO UNA COSA |
+| **REVELACIÓN** (vuelve todo) | *Hasta que lo entiendes* → NO ~~COMPITEN.~~ SE COMPLEMENTAN. → SON TRES PARTES DE LA MISMA PERSONA → 3 círculos (rojo/amarillo/rosa) que se unen: *cuerpo de atleta · mente de emprendedor · alma de artista* → en el centro: ***tú*** |
+| **CIERRE + CTA** | *si toda tu vida tuviste demasiados intereses para una sola categoría…* → ACABAS DE ENCONTRAR A TU GENTE. → *Si esto fue para ti, guárdalo.* ( y mándaselo a alguien así ) |
 
 ### Copy sugerido para el post
 > Hay personas que nunca podrán ser *una sola cosa*. 🏃‍♂️💼🎨
@@ -77,10 +55,10 @@ Recurso narrativo extra: un **tracker** arriba (ATLETA — EMPRENDEDOR — ARTIS
 Todo es código, renderizado en local:
 
 - `src/timeline.json` — guion + tiempos + efectos de cada escena (edita aquí el texto o la duración).
-- `src/index.html` — motor de motion graphics en Canvas (fondos por acto, tipografía cinética, impactos, grano, viñeta).
+- `src/index.html` — motor de motion graphics en Canvas: plantillas de póster, tipografía cinética, formas, grano.
 - `src/render.mjs` — captura fotograma a fotograma con Chromium (Playwright) → ffmpeg.
 - `src/score.py` — banda sonora y SFX sintetizados con numpy, sincronizados con `timeline.json`.
-- Tipografías: Inter, Bebas Neue, Playfair Display (OFL, vía Fontsource).
+- Tipografías: Anton, Inter, Caveat, Great Vibes (OFL, vía Fontsource).
 
 ```bash
 cd video/atleta-emprendedor-artista/src

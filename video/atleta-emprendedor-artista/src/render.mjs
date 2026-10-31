@@ -19,7 +19,7 @@ const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
 await page.addInitScript(tl => { window.TL = tl; }, TL);
 await page.goto('file://' + path.join(here, 'index.html'));
 await page.evaluate(async () => {
-  const fams = ['200 20px Inter', '400 20px Inter', '800 20px Inter', '400 20px Bebas', 'italic 400 20px Playfair', 'italic 700 20px Playfair'];
+  const fams = ['700 20px Inter', '800 20px Inter', '900 20px Inter', '20px Anton', '700 20px Caveat', '20px GreatVibes'];
   await Promise.all(fams.map(f => document.fonts.load(f, 'ÁÉÍÓÚÑáéíóúñ¿¡«»…')));
 });
 const total = await page.evaluate(() => window.TOTAL);

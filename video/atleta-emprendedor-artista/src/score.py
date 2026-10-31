@@ -123,190 +123,202 @@ def acts():
     return runs
 
 
-# chord vocab (midi)
+# chord vocab (midi) — bright, major-centred
 Am = [45, 52, 57, 60, 64]
 F = [41, 48, 53, 57, 60]
 C = [48, 55, 60, 64, 67]
 G = [43, 50, 55, 59, 62]
 Fmaj7 = [41, 48, 52, 57, 64]
+Am7 = [45, 52, 55, 60, 64]
 Cmaj7 = [48, 55, 59, 64, 67]
-Dm9 = [50, 57, 60, 64, 65]
+BEAT = 0.6  # 100 bpm; every poster cut lands on this grid
 
-for act, s, e in acts():
-    dur = e - s
-    if act == 0:  # hook: dark sustained Am
-        add(music, s, pad([45, 52, 60], dur + 0.5, 0.4, a=1.2, r=1.2), 0.55)
-        add(music, s, sub(33, dur), 0.25)
-    elif act == 1:  # body: Am/F with heartbeat
-        seq = [Am, F]
-        step = 2.4
-        k = 0
-        while s + k * step < e:
-            ch = seq[k % 2]
-            add(music, s + k * step, pad(ch, min(step, e - s - k * step) + .2, 0.8, a=0.4, r=0.9), 0.5)
-            add(music, s + k * step, sub(ch[0] - 12, step), 0.28)
-            k += 1
-        bt = s + 0.6
-        rate = 1.0
-        while bt < e - 0.3:
-            add(music, bt, kick(48, .45), 0.45)
-            add(music, bt + 0.22, kick(44, .4), 0.28)
-            rate = max(0.62, rate - 0.012)
-            bt += rate
-    elif act == 2:  # mind: C G Am F + pluck arpeggio
-        seq = [C, G, Am, F]
-        step = 2.6
-        k = 0
-        while s + k * step < e:
-            ch = seq[k % 4]
-            add(music, s + k * step, pad(ch, min(step, e - s - k * step) + .2, 1.0, a=0.3, r=0.9), 0.42)
-            add(music, s + k * step, sub(ch[0] - 12, step), 0.25)
-            k += 1
-        tt = s + 0.4
-        i = 0
-        while tt < e - 0.2:
-            ch = seq[int((tt - s) // step) % 4]
-            m = ch[[2, 3, 4, 3][i % 4]] + 12
-            add(music, tt, pluck(m, .5), 0.13, pan=[-.4, .4][i % 2])
-            if i % 4 == 0:
-                add(music, tt, kick(50, .35, False), 0.25)
-            n = int(0.06 * SR)
-            add(music, tt + 0.125, hp(rng.standard_normal(n) * np.exp(-np.arange(n) / SR * 80), 7000), 0.05, pan=.3)
-            tt += 0.25
-            i += 1
-    elif act == 3:  # soul: lush maj7 + bells
-        seq = [Fmaj7, Cmaj7, Dm9, Cmaj7]
-        step = 3.0
-        k = 0
-        while s + k * step < e:
-            ch = seq[k % 4]
-            add(music, s + k * step, pad(ch, min(step, e - s - k * step) + .4, 1.2, a=0.7, r=1.4), 0.5)
-            add(music, s + k * step, sub(ch[0] - 12, step), 0.22)
-            k += 1
-        r2 = np.random.default_rng(8)
-        tt = s + 0.3
-        while tt < e - 0.5:
-            ch = seq[int((tt - s) // step) % 4]
-            add(music, tt, bell(int(r2.choice(ch)) + 24, 2.5), 0.06, pan=float(r2.uniform(-.7, .7)))
-            tt += float(r2.choice([0.375, 0.75, 0.75, 1.125]))
-    elif act == 5:  # tension: cluster drone + clock
-        add(music, s, pad([45, 46, 52], dur + .3, 0.3, a=0.2, r=0.6), 0.5)
-        add(music, s, sub(33, dur, r=0.4), 0.3)
-        tt = s
-        while tt < e:
-            n = int(0.03 * SR)
-            click = hp(rng.standard_normal(n) * np.exp(-np.arange(n) / SR * 200), 2500)
-            add(music, tt, click, 0.18, pan=-.2 if int((tt - s) * 2) % 2 else .2)
-            tt += 0.5
-    elif act == 4:  # resolution: F G Am C, building
-        seq = [F, G, Am, C]
-        step = 2.2
-        k = 0
-        while s + k * step < e:
-            ch = seq[k % 4]
-            last = s + (k + 1) * step >= e
-            add(music, s + k * step, pad(ch + [ch[2] + 12], min(step, e - s - k * step) + .3, 1.3, a=0.25, r=2.5 if last else 0.9), 0.55)
-            add(music, s + k * step, sub(ch[0] - 12, step, r=2.5 if last else .8), 0.3)
-            k += 1
-        tt = s + 0.1
-        i = 0
-        while tt < e - 4.0:
-            if i % 2 == 0:
-                add(music, tt, kick(52, .5), 0.4)
-            ch = seq[int((tt - s) // step) % 4]
-            add(music, tt, pluck(ch[[2, 3, 4, 3][i % 4]] + 12, .6), 0.1, pan=[-.5, .5][i % 2])
-            tt += 0.3
-            i += 1
 
-# ---------------- sfx ----------------
+def clap():
+    n = int(0.25 * SR)
+    tt = np.arange(n) / SR
+    x = noise(n)
+    x = hp(lp(x, 2600), 900)
+    e = np.exp(-tt * 28) + 0.6 * np.exp(-np.maximum(tt - 0.012, 0) * 40) * (tt > 0.012)
+    return x * e
+
+
+def hat(open_=False):
+    n = int((0.18 if open_ else 0.05) * SR)
+    return hp(noise(n), 7500) * np.exp(-np.arange(n) / SR * (18 if open_ else 90))
+
+
 def noise(n):
     return rng.standard_normal(n)
 
 
+def drums(s, e, mode):
+    """mode: full | half | light"""
+    tt, i = s, 0
+    while tt < e - 0.05:
+        if mode == "full" or (mode == "half" and i % 2 == 0) or (mode == "light" and i % 4 == 0):
+            add(music, tt, kick(50, .45), 0.55)
+        if i % 2 == 1 and mode != "light":
+            add(music, tt, clap(), 0.32, pan=.05)
+        if mode != "light":
+            add(music, tt + BEAT / 2, hat(i % 4 == 3), 0.09, pan=.35)
+            add(music, tt, hat(), 0.05, pan=-.3)
+        tt += BEAT
+        i += 1
+
+
+def chords(s, e, seq, step, gain=0.42, bright=1.0, subg=0.24):
+    k = 0
+    while s + k * step < e - 0.05:
+        ch = seq[k % len(seq)]
+        dur = min(step, e - s - k * step)
+        add(music, s + k * step, pad(ch, dur + .1, bright, a=0.08, r=0.5), gain)
+        add(music, s + k * step, sub(ch[0] - 12, dur, r=.3), subg)
+        k += 1
+
+
+def arps(s, e, seq, step, rate, gain=0.12, pattern=(2, 3, 4, 3), octave=12):
+    tt, i = s, 0
+    while tt < e - 0.1:
+        ch = seq[int((tt - s) // step) % len(seq)]
+        add(music, tt, pluck(ch[pattern[i % len(pattern)]] + octave, .45), gain, pan=[-.4, .4][i % 2])
+        tt += rate
+        i += 1
+
+
+for act, s, e in acts():
+    dur = e - s
+    if act == 0:  # hook: warm open F major, light pulse
+        chords(s, e, [F, C], 2.4, gain=0.38, bright=0.7)
+        drums(s + 1.8, e, "light")
+    elif act == 1:  # body: driving four-on-the-floor
+        chords(s, e, [C, G, Am, F], 2.4, gain=0.4)
+        drums(s, e, "full")
+        arps(s, e, [C, G, Am, F], 2.4, 0.3, 0.09)
+    elif act == 2:  # mind: same groove, faster 16th arps
+        chords(s, e, [Am, F, C, G], 2.4, gain=0.38, bright=1.2)
+        drums(s, e, "full")
+        arps(s, e, [Am, F, C, G], 2.4, 0.15, 0.08, pattern=(2, 3, 4, 3, 4, 2, 3, 4))
+    elif act == 3:  # soul: dreamy maj7, half-time + bells
+        chords(s, e, [Fmaj7, Am7, Cmaj7, G], 2.4, gain=0.42, bright=1.3)
+        drums(s, e, "half")
+        r2 = np.random.default_rng(8)
+        tt = s + 0.3
+        while tt < e - 0.4:
+            ch = [Fmaj7, Am7, Cmaj7, G][int((tt - s) // 2.4) % 4]
+            add(music, tt, bell(int(r2.choice(ch)) + 24, 2.2), 0.05, pan=float(r2.uniform(-.7, .7)))
+            tt += float(r2.choice([0.3, 0.6, 0.6, 0.9]))
+    elif act == 5:  # conflict: the beat drops out, clock + low drone
+        add(music, s, pad([45, 46, 52], dur + .2, 0.3, a=0.05, r=0.4), 0.45)
+        add(music, s, sub(33, dur, r=0.3), 0.3)
+        tt = s
+        while tt < e:
+            n = int(0.03 * SR)
+            add(music, tt, hp(noise(n) * np.exp(-np.arange(n) / SR * 200), 2500), 0.2, pan=.2)
+            tt += BEAT
+    elif act == 4:  # revelation: everything returns, biggest section, then ring out
+        end_beat = e - 4.2
+        chords(s, end_beat, [F, G, Am, C], 2.4, gain=0.45, bright=1.4, subg=0.3)
+        drums(s, end_beat, "full")
+        arps(s, end_beat, [F, G, Am, C], 2.4, 0.15, 0.08, pattern=(2, 3, 4, 3, 4, 2, 3, 4))
+        add(music, end_beat, pad(F + [69], 4.2, 1.2, a=0.05, r=3.0), 0.45)
+        add(music, end_beat, sub(29, 4.0, r=2.5), 0.3)
+        add(music, end_beat, bell(77, 4), 0.1)
+
+# ---------------- sfx ----------------
 def impact(big=False, low=False):
-    dur = 2.8 if big else 1.6
+    dur = 2.4 if big else 1.2
     n = int(dur * SR)
     tt = np.arange(n) / SR
-    f = (38 if low else 45) + 70 * np.exp(-tt * 9)
-    boom = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * (1.4 if big else 2.4))
-    nz = lp(noise(n), 1800 if not low else 600) * np.exp(-tt * 9) * 0.9
+    f = (38 if low else 48) + 80 * np.exp(-tt * 12)
+    boom = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * (1.8 if big else 3.5))
+    nz = lp(noise(n), 2500 if not low else 700) * np.exp(-tt * 14) * 0.9
     s = boom + nz
     if big:
-        s += hp(noise(n), 5000) * np.exp(-tt * 1.5) * 0.25  # cymbal wash
+        s += hp(noise(n), 5000) * np.exp(-tt * 1.6) * 0.22
     return np.tanh(s * 1.4)
 
 
-def riser(dur=1.6):
+def riser(dur=1.2):
     n = int(dur * SR)
     tt = np.arange(n) / SR
     k = tt / dur
     x = noise(n)
-    lo = lp(x, 900)
-    hi = hp(x, 3000)
-    s = lo * (1 - k) + hi * k
-    tone = np.sin(2 * np.pi * np.cumsum(200 + 900 * k ** 2) / SR) * 0.25
-    return (s * 0.6 + tone) * k ** 2.2
+    s = lp(x, 900) * (1 - k) + hp(x, 3000) * k
+    tone = np.sin(2 * np.pi * np.cumsum(300 + 1200 * k ** 2) / SR) * 0.2
+    return (s * 0.5 + tone) * k ** 2.2
 
 
-def whoosh(dur=0.45):
+def paper(dur=0.22):
+    """paper flip / swipe on each poster cut"""
     n = int(dur * SR)
     tt = np.arange(n) / SR
-    e = np.sin(np.pi * np.clip(tt / dur, 0, 1)) ** 2
-    return lp(noise(n), 2500) * e
+    e = np.exp(-tt * 22) * np.minimum(1, tt * 600)
+    return hp(lp(noise(n), 6000), 1500) * e
 
 
-def swell(dur=1.3):
+def swell(dur=1.0):
     n = int(dur * SR)
     k = np.arange(n) / n
-    return lp(noise(n), 1200) * k ** 3 + np.sin(2 * np.pi * 110 * np.arange(n) / SR) * k ** 3 * 0.3
+    return lp(noise(n), 1500) * k ** 3
 
 
 def tick_hit():
-    return np.tanh(kick(70, .35) * 1.5 + hp(noise(int(.35 * SR)), 4000) * np.exp(-np.arange(int(.35 * SR)) / SR * 30) * 0.4)
+    n = int(.3 * SR)
+    return np.tanh(kick(75, .3) * 1.4 + hp(noise(n), 4000) * np.exp(-np.arange(n) / SR * 35) * 0.5)
+
+
+def pop():
+    n = int(.12 * SR)
+    tt = np.arange(n) / SR
+    return np.sin(2 * np.pi * (900 - 2500 * tt) * tt) * np.exp(-tt * 40)
 
 
 for b in TL:
-    s, d, kind, fx = b["start"], b["d"], b.get("kind", "text"), b.get("sfx", "")
-    add(sfx, s - 0.05, whoosh(), 0.10, pan=float(rng.uniform(-.5, .5)))
-    if fx == "impact":
-        add(sfx, s, impact(), 0.55)
-    elif fx == "impact_low":
+    s, d, look, fx = b["start"], b["d"], b.get("look", ""), b.get("sfx", "")
+    add(sfx, s, paper(), 0.22, pan=float(rng.uniform(-.5, .5)))
+    if fx == "slam":
+        add(sfx, s, impact(), 0.5)
+    elif fx == "slam_low":
         add(sfx, s, impact(low=True), 0.6)
     elif fx == "big":
-        add(sfx, s, impact(big=True), 0.6)
-    elif fx == "riser_impact":
-        add(sfx, s - 1.6, riser(1.6), 0.35)
-        add(sfx, s, impact(), 0.55)
-    elif fx == "impact_late":
-        add(sfx, s + 2.4, impact(), 0.55)
+        add(sfx, s, impact(big=True), 0.55)
+    elif fx == "riser_slam":
+        add(sfx, s - 1.2, riser(1.2), 0.3)
+        add(sfx, s, impact(), 0.5)
+    elif fx == "slam_late":
+        add(sfx, s + 2.4, impact(), 0.5)
     elif fx == "swell":
-        add(sfx, s - 0.9, swell(1.0), 0.25)
-    if kind == "list":
+        add(sfx, s - 0.9, swell(0.9), 0.22)
+    if b.get("tag"):
+        add(sfx, s, pop(), 0.25)
+    if look == "list":
         slot = d / len(b["words"])
         for i in range(len(b["words"])):
-            add(sfx, s + i * slot, tick_hit(), 0.35, pan=[-.2, .2][i % 2])
-    if kind == "stack":
-        for i in range(len(b["items"])):
-            add(sfx, s + .1 + i * .55, tick_hit(), 0.3)
-    if kind == "progress":
-        n = int(1.9 * SR)
+            add(sfx, s + i * slot, tick_hit(), 0.32, pan=[-.2, .2][i % 2])
+            if i:
+                add(sfx, s + i * slot, paper(), 0.18)
+    if look == "stack":
+        for i in range(len(b["lines"])):
+            add(sfx, s + i * .55, tick_hit(), 0.28)
+    if look in ("cream", "red") and fx == "":
+        stg = min(.22, d * .4 / len(b["lines"]))
+        for i in range(len(b["lines"])):
+            add(sfx, s + i * stg, tick_hit(), 0.12)
+    if look == "progress":
+        n = int(1.7 * SR)
         k = np.arange(n) / n
-        add(sfx, s + .6, np.sin(2 * np.pi * np.cumsum(180 + 700 * k ** 2) / SR) * k * 0.5, 0.12)
-    if kind == "chapter":
-        add(sfx, s + .05, bell(57 + {1: 0, 2: 3, 3: 7}.get(b["act"], 0), 3), 0.12)
-    if kind == "triad":
-        for i, m in enumerate([69, 72, 76]):
-            add(sfx, s + .2 + i * 1.25, bell(m, 4), 0.2, pan=[-.5, .5, 0][i])
-            add(sfx, s + .2 + i * 1.25, kick(48, .5), 0.3)
-        add(sfx, s + 4.3, impact(big=True), 0.5)
-        for m in (57, 64, 69, 72, 76):
-            add(sfx, s + 4.3, bell(m, 5), 0.07)
-    if kind == "echo":
-        r2 = np.random.default_rng(99)
+        add(sfx, s + .7, np.sin(2 * np.pi * np.cumsum(220 + 800 * k ** 2) / SR) * k * 0.5, 0.1)
+    if look == "triad":
+        for i, m in enumerate([72, 76, 79]):
+            add(sfx, s + 1.6 + i * .8, bell(m, 3), 0.16, pan=[-.5, .5, 0][i])
+        add(sfx, s + 4.1, impact(big=True), 0.45)
+        for m in (65, 69, 72, 77):
+            add(sfx, s + 4.1, bell(m, 4), 0.06)
+    if look == "echo":
         for i in range(11):
-            r2.random(); r2.random(); r2.random()
-            t0 = .3 + r2.random() * 1.8
-            add(sfx, s + t0, whoosh(.3), 0.05, pan=float(r2.uniform(-.8, .8)))
+            add(sfx, s + .25 + i * .13, tick_hit(), 0.1, pan=[-.5, .5][i % 2])
+        add(sfx, s + 2.2, impact(low=True), 0.35)
 
 # ---------------- reverb + mix ----------------
 def reverb(x, secs=2.6, decay=2.2):
@@ -321,8 +333,8 @@ def reverb(x, secs=2.6, decay=2.2):
     return y
 
 
-music = lp(music, 7000)
-mix = 0.62 * (music + 0.35 * reverb(music)) + sfx + 0.3 * reverb(sfx, 1.8, 3.0)
+music = lp(music, 15000)
+mix = 0.7 * (music + 0.18 * reverb(music, 1.8, 3.0)) + sfx + 0.3 * reverb(sfx, 1.8, 3.0)
 # fades
 fi, fo = int(.4 * SR), int(2.0 * SR)
 end = int((TOTAL + 0.6) * SR)
