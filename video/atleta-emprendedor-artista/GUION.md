@@ -64,5 +64,5 @@ Todo es código, renderizado en local:
 cd video/atleta-emprendedor-artista/src
 node render.mjs frames /tmp/video_noaudio.mp4
 python3 score.py /tmp/score.wav
-ffmpeg -i /tmp/video_noaudio.mp4 -i /tmp/score.wav -c:v copy -c:a aac -b:a 192k -af loudnorm=I=-14:TP=-1.5 -shortest ../atleta-emprendedor-artista.mp4
+ffmpeg -i /tmp/video_noaudio.mp4 -i /tmp/score.wav -c:v libx264 -preset slow -crf 26 -maxrate 5M -bufsize 10M -pix_fmt yuv420p -c:a aac -b:a 192k -af loudnorm=I=-14:TP=-1.5 -shortest -movflags +faststart ../atleta-emprendedor-artista.mp4
 ```
