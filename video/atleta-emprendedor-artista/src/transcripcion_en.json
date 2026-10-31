@@ -1,0 +1,1978 @@
+[
+ {
+  "start": 0.0,
+  "end": 1.48,
+  "text": " Hear me out, there's a certain type of person",
+  "words": [
+   [
+    0.0,
+    0.08,
+    " Hear"
+   ],
+   [
+    0.08,
+    0.16,
+    " me"
+   ],
+   [
+    0.16,
+    0.3,
+    " out,"
+   ],
+   [
+    0.36,
+    0.52,
+    " there's"
+   ],
+   [
+    0.52,
+    0.62,
+    " a"
+   ],
+   [
+    0.62,
+    0.86,
+    " certain"
+   ],
+   [
+    0.86,
+    1.06,
+    " type"
+   ],
+   [
+    1.06,
+    1.2,
+    " of"
+   ],
+   [
+    1.2,
+    1.48,
+    " person"
+   ]
+  ]
+ },
+ {
+  "start": 1.48,
+  "end": 2.96,
+  "text": " who will never be satisfied",
+  "words": [
+   [
+    1.48,
+    1.72,
+    " who"
+   ],
+   [
+    1.72,
+    1.88,
+    " will"
+   ],
+   [
+    1.88,
+    2.22,
+    " never"
+   ],
+   [
+    2.22,
+    2.5,
+    " be"
+   ],
+   [
+    2.5,
+    2.96,
+    " satisfied"
+   ]
+  ]
+ },
+ {
+  "start": 2.96,
+  "end": 4.98,
+  "text": " with doing just one thing with their life",
+  "words": [
+   [
+    2.96,
+    3.48,
+    " with"
+   ],
+   [
+    3.48,
+    3.68,
+    " doing"
+   ],
+   [
+    3.68,
+    3.88,
+    " just"
+   ],
+   [
+    3.88,
+    4.18,
+    " one"
+   ],
+   [
+    4.18,
+    4.4,
+    " thing"
+   ],
+   [
+    4.4,
+    4.6,
+    " with"
+   ],
+   [
+    4.6,
+    4.7,
+    " their"
+   ],
+   [
+    4.7,
+    4.98,
+    " life"
+   ]
+  ]
+ },
+ {
+  "start": 4.98,
+  "end": 7.64,
+  "text": " and they almost always follow a similar path.",
+  "words": [
+   [
+    4.98,
+    5.22,
+    " and"
+   ],
+   [
+    5.22,
+    5.32,
+    " they"
+   ],
+   [
+    5.32,
+    5.54,
+    " almost"
+   ],
+   [
+    5.54,
+    6.02,
+    " always"
+   ],
+   [
+    6.02,
+    6.48,
+    " follow"
+   ],
+   [
+    6.48,
+    6.76,
+    " a"
+   ],
+   [
+    6.76,
+    7.08,
+    " similar"
+   ],
+   [
+    7.08,
+    7.64,
+    " path."
+   ]
+  ]
+ },
+ {
+  "start": 7.86,
+  "end": 9.32,
+  "text": " It usually starts with sports.",
+  "words": [
+   [
+    7.86,
+    7.94,
+    " It"
+   ],
+   [
+    7.94,
+    8.28,
+    " usually"
+   ],
+   [
+    8.28,
+    8.68,
+    " starts"
+   ],
+   [
+    8.68,
+    8.94,
+    " with"
+   ],
+   [
+    8.94,
+    9.32,
+    " sports."
+   ]
+  ]
+ },
+ {
+  "start": 9.58,
+  "end": 10.96,
+  "text": " You grow up playing some kind of sport",
+  "words": [
+   [
+    9.58,
+    9.64,
+    " You"
+   ],
+   [
+    9.64,
+    9.88,
+    " grow"
+   ],
+   [
+    9.88,
+    10.1,
+    " up"
+   ],
+   [
+    10.1,
+    10.32,
+    " playing"
+   ],
+   [
+    10.32,
+    10.48,
+    " some"
+   ],
+   [
+    10.48,
+    10.66,
+    " kind"
+   ],
+   [
+    10.66,
+    10.72,
+    " of"
+   ],
+   [
+    10.72,
+    10.96,
+    " sport"
+   ]
+  ]
+ },
+ {
+  "start": 10.96,
+  "end": 12.92,
+  "text": " and eventually you fall in love with your fitness.",
+  "words": [
+   [
+    10.96,
+    11.12,
+    " and"
+   ],
+   [
+    11.12,
+    11.52,
+    " eventually"
+   ],
+   [
+    11.52,
+    11.78,
+    " you"
+   ],
+   [
+    11.78,
+    12.06,
+    " fall"
+   ],
+   [
+    12.06,
+    12.16,
+    " in"
+   ],
+   [
+    12.16,
+    12.3,
+    " love"
+   ],
+   [
+    12.3,
+    12.46,
+    " with"
+   ],
+   [
+    12.46,
+    12.58,
+    " your"
+   ],
+   [
+    12.58,
+    12.92,
+    " fitness."
+   ]
+  ]
+ },
+ {
+  "start": 13.28,
+  "end": 14.62,
+  "text": " You start training, you push your limits,",
+  "words": [
+   [
+    13.28,
+    13.36,
+    " You"
+   ],
+   [
+    13.36,
+    13.52,
+    " start"
+   ],
+   [
+    13.52,
+    13.86,
+    " training,"
+   ],
+   [
+    14.02,
+    14.06,
+    " you"
+   ],
+   [
+    14.06,
+    14.22,
+    " push"
+   ],
+   [
+    14.22,
+    14.36,
+    " your"
+   ],
+   [
+    14.36,
+    14.62,
+    " limits,"
+   ]
+  ]
+ },
+ {
+  "start": 14.72,
+  "end": 16.96,
+  "text": " you care about your sleep, your energy, the way you feel.",
+  "words": [
+   [
+    14.72,
+    14.8,
+    " you"
+   ],
+   [
+    14.8,
+    14.94,
+    " care"
+   ],
+   [
+    14.94,
+    15.08,
+    " about"
+   ],
+   [
+    15.08,
+    15.2,
+    " your"
+   ],
+   [
+    15.2,
+    15.48,
+    " sleep,"
+   ],
+   [
+    15.6,
+    15.74,
+    " your"
+   ],
+   [
+    15.74,
+    16.08,
+    " energy,"
+   ],
+   [
+    16.22,
+    16.28,
+    " the"
+   ],
+   [
+    16.28,
+    16.4,
+    " way"
+   ],
+   [
+    16.4,
+    16.54,
+    " you"
+   ],
+   [
+    16.54,
+    16.96,
+    " feel."
+   ]
+  ]
+ },
+ {
+  "start": 17.18,
+  "end": 18.18,
+  "text": " You start seeing what happens",
+  "words": [
+   [
+    17.18,
+    17.24,
+    " You"
+   ],
+   [
+    17.24,
+    17.44,
+    " start"
+   ],
+   [
+    17.44,
+    17.74,
+    " seeing"
+   ],
+   [
+    17.74,
+    17.92,
+    " what"
+   ],
+   [
+    17.92,
+    18.18,
+    " happens"
+   ]
+  ]
+ },
+ {
+  "start": 18.18,
+  "end": 21.04,
+  "text": " when you consistently put effort towards something",
+  "words": [
+   [
+    18.18,
+    18.36,
+    " when"
+   ],
+   [
+    18.36,
+    18.48,
+    " you"
+   ],
+   [
+    18.48,
+    19.12,
+    " consistently"
+   ],
+   [
+    19.12,
+    19.56,
+    " put"
+   ],
+   [
+    19.56,
+    20.22,
+    " effort"
+   ],
+   [
+    20.22,
+    20.6,
+    " towards"
+   ],
+   [
+    20.6,
+    21.04,
+    " something"
+   ]
+  ]
+ },
+ {
+  "start": 21.04,
+  "end": 23.38,
+  "text": " and you get addicted to the feeling of progress.",
+  "words": [
+   [
+    21.04,
+    21.3,
+    " and"
+   ],
+   [
+    21.3,
+    21.42,
+    " you"
+   ],
+   [
+    21.42,
+    21.56,
+    " get"
+   ],
+   [
+    21.56,
+    21.84,
+    " addicted"
+   ],
+   [
+    21.84,
+    22.1,
+    " to"
+   ],
+   [
+    22.1,
+    22.22,
+    " the"
+   ],
+   [
+    22.22,
+    22.64,
+    " feeling"
+   ],
+   [
+    22.64,
+    22.94,
+    " of"
+   ],
+   [
+    22.94,
+    23.38,
+    " progress."
+   ]
+  ]
+ },
+ {
+  "start": 23.68,
+  "end": 24.74,
+  "text": " But eventually you start wondering,",
+  "words": [
+   [
+    23.68,
+    23.76,
+    " But"
+   ],
+   [
+    23.76,
+    24.02,
+    " eventually"
+   ],
+   [
+    24.02,
+    24.24,
+    " you"
+   ],
+   [
+    24.24,
+    24.44,
+    " start"
+   ],
+   [
+    24.44,
+    24.74,
+    " wondering,"
+   ]
+  ]
+ },
+ {
+  "start": 24.98,
+  "end": 27.18,
+  "text": " if I can completely transform my body",
+  "words": [
+   [
+    24.98,
+    25.1,
+    " if"
+   ],
+   [
+    25.1,
+    25.26,
+    " I"
+   ],
+   [
+    25.26,
+    25.44,
+    " can"
+   ],
+   [
+    25.44,
+    25.84,
+    " completely"
+   ],
+   [
+    25.84,
+    26.4,
+    " transform"
+   ],
+   [
+    26.4,
+    26.76,
+    " my"
+   ],
+   [
+    26.76,
+    27.18,
+    " body"
+   ]
+  ]
+ },
+ {
+  "start": 27.18,
+  "end": 28.72,
+  "text": " through discipline and repetition,",
+  "words": [
+   [
+    27.18,
+    27.72,
+    " through"
+   ],
+   [
+    27.72,
+    28.14,
+    " discipline"
+   ],
+   [
+    28.14,
+    28.28,
+    " and"
+   ],
+   [
+    28.28,
+    28.72,
+    " repetition,"
+   ]
+  ]
+ },
+ {
+  "start": 28.72,
+  "end": 30.24,
+  "text": " what else can I do it with?",
+  "words": [
+   [
+    28.72,
+    29.36,
+    " what"
+   ],
+   [
+    29.36,
+    29.54,
+    " else"
+   ],
+   [
+    29.54,
+    29.72,
+    " can"
+   ],
+   [
+    29.72,
+    29.82,
+    " I"
+   ],
+   [
+    29.82,
+    29.96,
+    " do"
+   ],
+   [
+    29.96,
+    30.08,
+    " it"
+   ],
+   [
+    30.08,
+    30.24,
+    " with?"
+   ]
+  ]
+ },
+ {
+  "start": 30.52,
+  "end": 32.52,
+  "text": " So you start getting interested in business.",
+  "words": [
+   [
+    30.52,
+    30.8,
+    " So"
+   ],
+   [
+    30.8,
+    31.02,
+    " you"
+   ],
+   [
+    31.02,
+    31.26,
+    " start"
+   ],
+   [
+    31.26,
+    31.5,
+    " getting"
+   ],
+   [
+    31.5,
+    31.86,
+    " interested"
+   ],
+   [
+    31.86,
+    32.2,
+    " in"
+   ],
+   [
+    32.2,
+    32.52,
+    " business."
+   ]
+  ]
+ },
+ {
+  "start": 32.92,
+  "end": 34.26,
+  "text": " You read books, listen to podcasts,",
+  "words": [
+   [
+    32.92,
+    32.96,
+    " You"
+   ],
+   [
+    32.96,
+    33.1,
+    " read"
+   ],
+   [
+    33.1,
+    33.48,
+    " books,"
+   ],
+   [
+    33.68,
+    33.78,
+    " listen"
+   ],
+   [
+    33.78,
+    33.9,
+    " to"
+   ],
+   [
+    33.9,
+    34.26,
+    " podcasts,"
+   ]
+  ]
+ },
+ {
+  "start": 34.64,
+  "end": 35.62,
+  "text": " study successful people",
+  "words": [
+   [
+    34.64,
+    34.8,
+    " study"
+   ],
+   [
+    34.8,
+    35.16,
+    " successful"
+   ],
+   [
+    35.16,
+    35.62,
+    " people"
+   ]
+  ]
+ },
+ {
+  "start": 35.62,
+  "end": 38.0,
+  "text": " and you become obsessed with the idea",
+  "words": [
+   [
+    35.62,
+    36.0,
+    " and"
+   ],
+   [
+    36.0,
+    36.12,
+    " you"
+   ],
+   [
+    36.12,
+    36.54,
+    " become"
+   ],
+   [
+    36.54,
+    37.26,
+    " obsessed"
+   ],
+   [
+    37.26,
+    37.58,
+    " with"
+   ],
+   [
+    37.58,
+    37.68,
+    " the"
+   ],
+   [
+    37.68,
+    38.0,
+    " idea"
+   ]
+  ]
+ },
+ {
+  "start": 38.0,
+  "end": 39.56,
+  "text": " of building something of your own.",
+  "words": [
+   [
+    38.0,
+    38.2,
+    " of"
+   ],
+   [
+    38.2,
+    38.56,
+    " building"
+   ],
+   [
+    38.56,
+    38.92,
+    " something"
+   ],
+   [
+    38.92,
+    39.18,
+    " of"
+   ],
+   [
+    39.18,
+    39.3,
+    " your"
+   ],
+   [
+    39.3,
+    39.56,
+    " own."
+   ]
+  ]
+ },
+ {
+  "start": 39.76,
+  "end": 41.08,
+  "text": " And you realize that same principle",
+  "words": [
+   [
+    39.76,
+    39.88,
+    " And"
+   ],
+   [
+    39.88,
+    39.94,
+    " you"
+   ],
+   [
+    39.94,
+    40.22,
+    " realize"
+   ],
+   [
+    40.22,
+    40.42,
+    " that"
+   ],
+   [
+    40.42,
+    40.76,
+    " same"
+   ],
+   [
+    40.76,
+    41.08,
+    " principle"
+   ]
+  ]
+ },
+ {
+  "start": 41.08,
+  "end": 43.26,
+  "text": " you learn through sports, discipline, competition,",
+  "words": [
+   [
+    41.08,
+    41.26,
+    " you"
+   ],
+   [
+    41.26,
+    41.44,
+    " learn"
+   ],
+   [
+    41.44,
+    41.62,
+    " through"
+   ],
+   [
+    41.62,
+    42.08,
+    " sports,"
+   ],
+   [
+    42.3,
+    42.54,
+    " discipline,"
+   ],
+   [
+    42.74,
+    43.26,
+    " competition,"
+   ]
+  ]
+ },
+ {
+  "start": 43.72,
+  "end": 46.44,
+  "text": " delayed gratification, they almost apply perfectly",
+  "words": [
+   [
+    43.72,
+    43.84,
+    " delayed"
+   ],
+   [
+    43.84,
+    44.48,
+    " gratification,"
+   ],
+   [
+    44.66,
+    44.78,
+    " they"
+   ],
+   [
+    44.78,
+    45.18,
+    " almost"
+   ],
+   [
+    45.18,
+    45.78,
+    " apply"
+   ],
+   [
+    45.78,
+    46.44,
+    " perfectly"
+   ]
+  ]
+ },
+ {
+  "start": 46.44,
+  "end": 47.58,
+  "text": " to entrepreneurship.",
+  "words": [
+   [
+    46.44,
+    46.98,
+    " to"
+   ],
+   [
+    46.98,
+    47.58,
+    " entrepreneurship."
+   ]
+  ]
+ },
+ {
+  "start": 47.94,
+  "end": 49.8,
+  "text": " But here's where things really get interesting",
+  "words": [
+   [
+    47.94,
+    48.1,
+    " But"
+   ],
+   [
+    48.1,
+    48.52,
+    " here's"
+   ],
+   [
+    48.52,
+    48.64,
+    " where"
+   ],
+   [
+    48.64,
+    48.86,
+    " things"
+   ],
+   [
+    48.86,
+    49.22,
+    " really"
+   ],
+   [
+    49.22,
+    49.42,
+    " get"
+   ],
+   [
+    49.42,
+    49.8,
+    " interesting"
+   ]
+  ]
+ },
+ {
+  "start": 49.8,
+  "end": 51.46,
+  "text": " because even though you love business",
+  "words": [
+   [
+    49.8,
+    50.16,
+    " because"
+   ],
+   [
+    50.16,
+    50.54,
+    " even"
+   ],
+   [
+    50.54,
+    50.72,
+    " though"
+   ],
+   [
+    50.72,
+    50.84,
+    " you"
+   ],
+   [
+    50.84,
+    51.16,
+    " love"
+   ],
+   [
+    51.16,
+    51.46,
+    " business"
+   ]
+  ]
+ },
+ {
+  "start": 51.46,
+  "end": 53.46,
+  "text": " and making money, there's another side to you",
+  "words": [
+   [
+    51.46,
+    51.68,
+    " and"
+   ],
+   [
+    51.68,
+    51.84,
+    " making"
+   ],
+   [
+    51.84,
+    52.14,
+    " money,"
+   ],
+   [
+    52.36,
+    52.58,
+    " there's"
+   ],
+   [
+    52.58,
+    52.82,
+    " another"
+   ],
+   [
+    52.82,
+    53.18,
+    " side"
+   ],
+   [
+    53.18,
+    53.36,
+    " to"
+   ],
+   [
+    53.36,
+    53.46,
+    " you"
+   ]
+  ]
+ },
+ {
+  "start": 53.46,
+  "end": 55.4,
+  "text": " that doesn't quite fit into either of those worlds.",
+  "words": [
+   [
+    53.46,
+    53.5,
+    " that"
+   ],
+   [
+    53.5,
+    53.74,
+    " doesn't"
+   ],
+   [
+    53.74,
+    53.92,
+    " quite"
+   ],
+   [
+    53.92,
+    54.18,
+    " fit"
+   ],
+   [
+    54.18,
+    54.5,
+    " into"
+   ],
+   [
+    54.5,
+    54.78,
+    " either"
+   ],
+   [
+    54.78,
+    54.92,
+    " of"
+   ],
+   [
+    54.92,
+    55.06,
+    " those"
+   ],
+   [
+    55.06,
+    55.4,
+    " worlds."
+   ]
+  ]
+ },
+ {
+  "start": 55.4,
+  "end": 58.66,
+  "text": " You love music, art, film, writing, design.",
+  "words": [
+   [
+    55.4,
+    55.74,
+    " You"
+   ],
+   [
+    55.74,
+    55.94,
+    " love"
+   ],
+   [
+    55.94,
+    56.34,
+    " music,"
+   ],
+   [
+    56.56,
+    56.8,
+    " art,"
+   ],
+   [
+    57.1,
+    57.32,
+    " film,"
+   ],
+   [
+    57.66,
+    57.92,
+    " writing,"
+   ],
+   [
+    58.22,
+    58.66,
+    " design."
+   ]
+  ]
+ },
+ {
+  "start": 59.02,
+  "end": 61.56,
+  "text": " You find yourself fascinated by philosophy, psychology,",
+  "words": [
+   [
+    59.02,
+    59.08,
+    " You"
+   ],
+   [
+    59.08,
+    59.28,
+    " find"
+   ],
+   [
+    59.28,
+    59.48,
+    " yourself"
+   ],
+   [
+    59.48,
+    60.04,
+    " fascinated"
+   ],
+   [
+    60.04,
+    60.32,
+    " by"
+   ],
+   [
+    60.32,
+    60.84,
+    " philosophy,"
+   ],
+   [
+    61.08,
+    61.56,
+    " psychology,"
+   ]
+  ]
+ },
+ {
+  "start": 62.0,
+  "end": 64.44,
+  "text": " the way people think, you don't just wanna make money,",
+  "words": [
+   [
+    62.0,
+    62.08,
+    " the"
+   ],
+   [
+    62.08,
+    62.28,
+    " way"
+   ],
+   [
+    62.28,
+    62.66,
+    " people"
+   ],
+   [
+    62.66,
+    63.02,
+    " think,"
+   ],
+   [
+    63.36,
+    63.54,
+    " you"
+   ],
+   [
+    63.54,
+    63.66,
+    " don't"
+   ],
+   [
+    63.66,
+    63.84,
+    " just"
+   ],
+   [
+    63.84,
+    64.0,
+    " wanna"
+   ],
+   [
+    64.0,
+    64.2,
+    " make"
+   ],
+   [
+    64.2,
+    64.44,
+    " money,"
+   ]
+  ]
+ },
+ {
+  "start": 64.78,
+  "end": 65.96,
+  "text": " you wanna create things.",
+  "words": [
+   [
+    64.78,
+    64.96,
+    " you"
+   ],
+   [
+    64.96,
+    65.14,
+    " wanna"
+   ],
+   [
+    65.14,
+    65.56,
+    " create"
+   ],
+   [
+    65.56,
+    65.96,
+    " things."
+   ]
+  ]
+ },
+ {
+  "start": 66.26,
+  "end": 67.48,
+  "text": " You wanna create something beautiful,",
+  "words": [
+   [
+    66.26,
+    66.34,
+    " You"
+   ],
+   [
+    66.34,
+    66.42,
+    " wanna"
+   ],
+   [
+    66.42,
+    66.7,
+    " create"
+   ],
+   [
+    66.7,
+    66.92,
+    " something"
+   ],
+   [
+    66.92,
+    67.48,
+    " beautiful,"
+   ]
+  ]
+ },
+ {
+  "start": 67.88,
+  "end": 69.82,
+  "text": " experience everything life has to offer",
+  "words": [
+   [
+    67.88,
+    68.28,
+    " experience"
+   ],
+   [
+    68.28,
+    68.74,
+    " everything"
+   ],
+   [
+    68.74,
+    69.1,
+    " life"
+   ],
+   [
+    69.1,
+    69.36,
+    " has"
+   ],
+   [
+    69.36,
+    69.5,
+    " to"
+   ],
+   [
+    69.5,
+    69.82,
+    " offer"
+   ]
+  ]
+ },
+ {
+  "start": 69.82,
+  "end": 73.04,
+  "text": " and understand as much of the world as possible.",
+  "words": [
+   [
+    69.82,
+    70.18,
+    " and"
+   ],
+   [
+    70.18,
+    70.8,
+    " understand"
+   ],
+   [
+    70.8,
+    71.18,
+    " as"
+   ],
+   [
+    71.18,
+    71.56,
+    " much"
+   ],
+   [
+    71.56,
+    71.86,
+    " of"
+   ],
+   [
+    71.86,
+    71.96,
+    " the"
+   ],
+   [
+    71.96,
+    72.28,
+    " world"
+   ],
+   [
+    72.28,
+    72.56,
+    " as"
+   ],
+   [
+    72.56,
+    73.04,
+    " possible."
+   ]
+  ]
+ },
+ {
+  "start": 73.28,
+  "end": 74.76,
+  "text": " But after a while this is confusing",
+  "words": [
+   [
+    73.28,
+    73.42,
+    " But"
+   ],
+   [
+    73.42,
+    73.64,
+    " after"
+   ],
+   [
+    73.64,
+    73.76,
+    " a"
+   ],
+   [
+    73.76,
+    73.9,
+    " while"
+   ],
+   [
+    73.9,
+    74.16,
+    " this"
+   ],
+   [
+    74.16,
+    74.28,
+    " is"
+   ],
+   [
+    74.28,
+    74.76,
+    " confusing"
+   ]
+  ]
+ },
+ {
+  "start": 74.76,
+  "end": 76.82,
+  "text": " because everyone keeps telling you to pick one thing",
+  "words": [
+   [
+    74.76,
+    75.14,
+    " because"
+   ],
+   [
+    75.14,
+    75.44,
+    " everyone"
+   ],
+   [
+    75.44,
+    75.68,
+    " keeps"
+   ],
+   [
+    75.68,
+    75.94,
+    " telling"
+   ],
+   [
+    75.94,
+    76.1,
+    " you"
+   ],
+   [
+    76.1,
+    76.2,
+    " to"
+   ],
+   [
+    76.2,
+    76.36,
+    " pick"
+   ],
+   [
+    76.36,
+    76.56,
+    " one"
+   ],
+   [
+    76.56,
+    76.82,
+    " thing"
+   ]
+  ]
+ },
+ {
+  "start": 76.82,
+  "end": 78.98,
+  "text": " but you can't imagine spending your entire life",
+  "words": [
+   [
+    76.82,
+    77.12,
+    " but"
+   ],
+   [
+    77.12,
+    77.24,
+    " you"
+   ],
+   [
+    77.24,
+    77.5,
+    " can't"
+   ],
+   [
+    77.5,
+    77.74,
+    " imagine"
+   ],
+   [
+    77.74,
+    78.0,
+    " spending"
+   ],
+   [
+    78.0,
+    78.22,
+    " your"
+   ],
+   [
+    78.22,
+    78.62,
+    " entire"
+   ],
+   [
+    78.62,
+    78.98,
+    " life"
+   ]
+  ]
+ },
+ {
+  "start": 78.98,
+  "end": 79.84,
+  "text": " being just one thing.",
+  "words": [
+   [
+    78.98,
+    79.18,
+    " being"
+   ],
+   [
+    79.18,
+    79.38,
+    " just"
+   ],
+   [
+    79.38,
+    79.6,
+    " one"
+   ],
+   [
+    79.6,
+    79.84,
+    " thing."
+   ]
+  ]
+ },
+ {
+  "start": 80.0,
+  "end": 82.2,
+  "text": " Eventually you realize maybe these interests",
+  "words": [
+   [
+    80.0,
+    80.36,
+    " Eventually"
+   ],
+   [
+    80.36,
+    80.6,
+    " you"
+   ],
+   [
+    80.6,
+    80.9,
+    " realize"
+   ],
+   [
+    80.9,
+    81.62,
+    " maybe"
+   ],
+   [
+    81.62,
+    81.82,
+    " these"
+   ],
+   [
+    81.82,
+    82.2,
+    " interests"
+   ]
+  ]
+ },
+ {
+  "start": 82.2,
+  "end": 83.52,
+  "text": " aren't competing with each other",
+  "words": [
+   [
+    82.2,
+    82.52,
+    " aren't"
+   ],
+   [
+    82.52,
+    82.94,
+    " competing"
+   ],
+   [
+    82.94,
+    83.16,
+    " with"
+   ],
+   [
+    83.16,
+    83.32,
+    " each"
+   ],
+   [
+    83.32,
+    83.52,
+    " other"
+   ]
+  ]
+ },
+ {
+  "start": 83.52,
+  "end": 85.22,
+  "text": " but they actually complement each other.",
+  "words": [
+   [
+    83.52,
+    83.72,
+    " but"
+   ],
+   [
+    83.72,
+    84.04,
+    " they"
+   ],
+   [
+    84.04,
+    84.28,
+    " actually"
+   ],
+   [
+    84.28,
+    84.72,
+    " complement"
+   ],
+   [
+    84.72,
+    85.0,
+    " each"
+   ],
+   [
+    85.0,
+    85.22,
+    " other."
+   ]
+  ]
+ },
+ {
+  "start": 85.54,
+  "end": 87.98,
+  "text": " Maybe they're three parts of the same person.",
+  "words": [
+   [
+    85.54,
+    85.74,
+    " Maybe"
+   ],
+   [
+    85.74,
+    86.22,
+    " they're"
+   ],
+   [
+    86.22,
+    86.54,
+    " three"
+   ],
+   [
+    86.54,
+    86.92,
+    " parts"
+   ],
+   [
+    86.92,
+    87.24,
+    " of"
+   ],
+   [
+    87.24,
+    87.34,
+    " the"
+   ],
+   [
+    87.34,
+    87.58,
+    " same"
+   ],
+   [
+    87.58,
+    87.98,
+    " person."
+   ]
+  ]
+ },
+ {
+  "start": 88.22,
+  "end": 91.74,
+  "text": " An athlete's body, an entrepreneur's mind, an artist's soul.",
+  "words": [
+   [
+    88.22,
+    88.3,
+    " An"
+   ],
+   [
+    88.3,
+    88.74,
+    " athlete's"
+   ],
+   [
+    88.74,
+    88.98,
+    " body,"
+   ],
+   [
+    89.32,
+    89.42,
+    " an"
+   ],
+   [
+    89.42,
+    90.22,
+    " entrepreneur's"
+   ],
+   [
+    90.22,
+    90.5,
+    " mind,"
+   ],
+   [
+    90.86,
+    91.0,
+    " an"
+   ],
+   [
+    91.0,
+    91.5,
+    " artist's"
+   ],
+   [
+    91.5,
+    91.74,
+    " soul."
+   ]
+  ]
+ },
+ {
+  "start": 91.98,
+  "end": 93.86,
+  "text": " And if you feel like you spent your entire life",
+  "words": [
+   [
+    91.98,
+    92.02,
+    " And"
+   ],
+   [
+    92.02,
+    92.14,
+    " if"
+   ],
+   [
+    92.14,
+    92.26,
+    " you"
+   ],
+   [
+    92.26,
+    92.48,
+    " feel"
+   ],
+   [
+    92.48,
+    92.68,
+    " like"
+   ],
+   [
+    92.68,
+    92.8,
+    " you"
+   ],
+   [
+    92.8,
+    92.94,
+    " spent"
+   ],
+   [
+    92.94,
+    93.1,
+    " your"
+   ],
+   [
+    93.1,
+    93.42,
+    " entire"
+   ],
+   [
+    93.42,
+    93.86,
+    " life"
+   ]
+  ]
+ },
+ {
+  "start": 93.86,
+  "end": 96.1,
+  "text": " with too many interests to fit into one category,",
+  "words": [
+   [
+    93.86,
+    94.28,
+    " with"
+   ],
+   [
+    94.28,
+    94.46,
+    " too"
+   ],
+   [
+    94.46,
+    94.6,
+    " many"
+   ],
+   [
+    94.6,
+    95.02,
+    " interests"
+   ],
+   [
+    95.02,
+    95.18,
+    " to"
+   ],
+   [
+    95.18,
+    95.26,
+    " fit"
+   ],
+   [
+    95.26,
+    95.4,
+    " into"
+   ],
+   [
+    95.4,
+    95.64,
+    " one"
+   ],
+   [
+    95.64,
+    96.1,
+    " category,"
+   ]
+  ]
+ },
+ {
+  "start": 96.62,
+  "end": 97.74,
+  "text": " then you've just found your people.",
+  "words": [
+   [
+    96.62,
+    96.9,
+    " then"
+   ],
+   [
+    96.9,
+    97.1,
+    " you've"
+   ],
+   [
+    97.1,
+    97.22,
+    " just"
+   ],
+   [
+    97.22,
+    97.4,
+    " found"
+   ],
+   [
+    97.4,
+    97.52,
+    " your"
+   ],
+   [
+    97.52,
+    97.74,
+    " people."
+   ]
+  ]
+ }
+]
