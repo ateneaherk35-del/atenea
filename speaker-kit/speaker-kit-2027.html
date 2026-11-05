@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Speaker Kit 2027 · Atenea Kurevelis</title>
+<style>
+:root{--blue:#243be8;--paper:#f3f0e8;--orange:#ff643b;--ink:#171917;--lime:#d9f189;--grey:#5d605b}
+*{box-sizing:border-box;margin:0;padding:0}
+@page{size:1600px 900px;margin:0}
+body{background:#2a2c29;font-family:Arial,Helvetica,sans-serif;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:1600px;height:900px;margin:0 auto 40px;position:relative;overflow:hidden;padding:80px 96px 72px;display:flex;flex-direction:column}
+@media print{body{background:none}.page{margin:0;break-after:page}.page:last-child{break-after:auto}}
+.paper{background:var(--paper)}.blue{background:var(--blue);color:var(--paper)}.orange{background:var(--orange)}.ink{background:var(--ink);color:var(--paper)}
+em{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-style:italic;letter-spacing:-.03em}
+.blue em{color:var(--lime)}.ink em{color:#ff825f}.paper em{color:var(--blue)}.orange em{color:var(--paper)}
+.kicker{font-size:16px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;margin-bottom:28px}
+h1{font-size:150px;line-height:.92;letter-spacing:-.06em;font-weight:800}
+h2{font-size:84px;line-height:1;letter-spacing:-.05em;font-weight:800}
+h3{font-size:30px;letter-spacing:-.02em;line-height:1.15}
+p{font-size:22px;line-height:1.45}
+.foot{position:absolute;left:96px;right:96px;bottom:30px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:.14em;opacity:.6;text-transform:uppercase}
+.photo{background:repeating-linear-gradient(135deg,#0000 0 14px,#0000000d 14px 28px);border:2px dashed currentColor;display:flex;align-items:center;justify-content:center;text-align:center;font-size:15px;letter-spacing:.12em;text-transform:uppercase;opacity:.75;padding:20px}
+.photo img{width:100%;height:100%;object-fit:cover}
+/* 1 cover */
+.cover .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:64px;flex:1}
+.cover h1{margin-top:10px}
+.cover .sub{font-size:30px;line-height:1.35;margin-top:40px;max-width:720px}
+.cover .who{margin-top:auto;font-size:20px;letter-spacing:.14em;font-weight:700}
+.cover .who span{display:block;font-weight:400;letter-spacing:.04em;margin-top:8px;opacity:.85}
+.cover .photo{height:100%;border-color:var(--lime);color:var(--lime)}
+.badge{display:inline-block;background:var(--lime);color:var(--ink);font-weight:700;font-size:16px;letter-spacing:.14em;padding:10px 16px;margin-bottom:30px}
+/* 2 bio */
+.bio .grid{display:grid;grid-template-columns:.85fr 1.4fr;gap:72px;flex:1;margin-bottom:24px}
+.bio .photo{height:100%}
+.bio h2{font-size:66px}
+.bio .lead{font-size:21px;margin-top:22px;max-width:820px}
+.creds{display:grid;grid-template-columns:1fr 1fr;gap:20px 40px;margin-top:30px}
+.creds div{border-top:2px solid var(--ink);padding-top:14px}
+.creds b{display:block;font-size:38px;letter-spacing:-.04em;color:var(--blue)}
+.creds span{font-size:19px;line-height:1.4;display:block;margin-top:6px}
+/* 3 talk */
+.talk h2{font-size:96px;margin-top:4px}
+.talk .lead{font-size:27px;margin-top:26px;max-width:1100px}
+.acts{display:grid;grid-template-columns:repeat(4,1fr);gap:34px;margin-top:auto}
+.acts div{border-top:2px solid var(--lime);padding-top:16px}
+.acts small{font-size:15px;letter-spacing:.14em;color:var(--lime);font-weight:700}
+.acts h3{margin-top:10px;font-size:28px}
+.acts p{font-size:19px;margin-top:10px;opacity:.9}
+/* 4 formats */
+.formats h2{font-size:78px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:auto}
+.card{background:var(--paper);padding:30px 28px;display:flex;flex-direction:column;min-height:440px}
+.card.hero{background:var(--ink);color:var(--paper)}
+.card .dur{font-size:15px;letter-spacing:.14em;font-weight:700;color:var(--blue)}
+.card.hero .dur{color:var(--lime)}
+.card h3{margin-top:16px;font-size:31px}
+.card p{font-size:18.5px;margin-top:14px;line-height:1.45}
+.card .for{margin-top:auto;border-top:1px solid currentColor;padding-top:14px;font-size:16px;line-height:1.4}
+.tag{display:inline-block;font-size:13px;letter-spacing:.12em;font-weight:700;background:var(--lime);color:var(--ink);padding:5px 9px;margin-top:14px;align-self:flex-start}
+/* 5 game */
+.game .grid{display:grid;grid-template-columns:1fr 1.05fr;gap:72px;flex:1}
+.game h2{font-size:76px}
+.game .lead{font-size:24px;margin-top:26px}
+.wheels{display:flex;gap:14px;margin-top:36px;align-items:center;font-size:22px;font-weight:700}
+.wheels span{background:var(--blue);color:var(--paper);padding:14px 18px}
+.wheels i{font-style:normal;color:var(--blue)}
+.wheels .ex{font-weight:400;font-size:17px;color:var(--grey);margin-top:12px}
+.rounds{display:flex;flex-direction:column;gap:0;align-self:center}
+.rounds div{display:grid;grid-template-columns:70px 1fr auto;align-items:baseline;border-top:2px solid var(--ink);padding:20px 0}
+.rounds div:last-child{border-bottom:2px solid var(--ink)}
+.rounds small{font-size:17px;color:var(--blue);font-weight:700}
+.rounds b{font-size:27px;letter-spacing:-.02em}
+.rounds b span{display:block;font-weight:400;font-size:18px;margin-top:6px;color:var(--grey);letter-spacing:0}
+.rounds em{font-size:20px}
+/* 6 case */
+.case .grid{display:grid;grid-template-columns:1fr 1.15fr;gap:64px;flex:1}
+.case h2{font-size:80px}
+.facts{margin-top:40px}
+.facts div{display:grid;grid-template-columns:220px 1fr;border-top:1px solid #ffffff55;padding:16px 0;font-size:21px;line-height:1.4}
+.facts div:last-child{border-bottom:1px solid #ffffff55}
+.facts small{font-size:14px;letter-spacing:.14em;color:var(--lime);font-weight:700;padding-top:4px}
+.gallery{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1.3fr 1fr;gap:16px}
+.gallery .photo{color:var(--lime);border-color:#d9f18999}
+.gallery .photo:first-child{grid-column:span 2}
+/* 7 quotes */
+.quotes h2{font-size:72px}
+.qgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 36px;margin-top:auto}
+.q{border-top:3px solid var(--ink);padding-top:18px}
+.q p{font-size:21px;line-height:1.42}
+.q p:before{content:'“';font-family:Georgia,serif;font-size:56px;line-height:0;vertical-align:-22px;margin-right:4px;color:var(--blue)}
+.q.big p{font-size:27px;font-weight:700;letter-spacing:-.015em;line-height:1.3}
+.q small{display:block;margin-top:12px;font-size:13px;letter-spacing:.12em;color:var(--grey);text-transform:uppercase}
+/* 8 value + contact */
+.close .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:80px;flex:1}
+.close h2{font-size:74px}
+.steps{margin-top:36px}
+.steps div{display:grid;grid-template-columns:150px 1fr;border-top:2px solid var(--ink);padding:18px 0}
+.steps small{font-size:15px;letter-spacing:.14em;font-weight:700;color:var(--paper)}
+.steps p{font-size:20px;line-height:1.45}
+.contact{background:var(--ink);color:var(--paper);padding:48px 44px;display:flex;flex-direction:column}
+.contact h3{font-size:44px;line-height:1.05;letter-spacing:-.04em}
+.contact .rows{margin-top:auto}
+.contact .rows div{border-top:1px solid #ffffff44;padding:14px 0;font-size:21px}
+.contact .rows small{display:block;font-size:13px;letter-spacing:.14em;color:var(--lime);font-weight:700;margin-bottom:4px}
+.contact .note{font-size:15px;opacity:.7;margin-top:18px;line-height:1.5}
+</style>
+</head>
+<body>
+
+<!-- 1 · PORTADA -->
+<section class="page blue cover">
+  <div class="grid">
+    <div style="display:flex;flex-direction:column">
+      <div class="kicker">Atenea Kurevelis · Speaker Kit 2027</div>
+      <h1>¿Y si me<br><em>equivoco?</em></h1>
+      <p class="sub">Cómo decidir cuando no tienes todas las respuestas.<br>Una conferencia y un taller de mentalidad estratégica para estudiantes.</p>
+      <div class="who">ATENEA KUREVELIS<span>Estratega · Fundadora de MÉTODO · Conferencista</span></div>
+    </div>
+    <div class="photo">Foto: Atenea en el escenario<br>de VIVEMKT18</div>
+  </div>
+</section>
+
+<!-- 2 · QUIÉN ES -->
+<section class="page paper bio">
+  <div class="grid">
+    <div class="photo">Retrato profesional</div>
+    <div>
+      <div class="kicker">Quién es Atenea</div>
+      <h2>Estrategia del <em>mundo real,</em><br>contada por alguien<br>cercano a ellos.</h2>
+      <p class="lead">Atenea tiene 25 años, es mercadóloga egresada del Tec de Monterrey y fundó MÉTODO, una consultoría de estrategia comercial. Todos los días toma decisiones con dueños de negocio que tienen dinero, equipos y clientes en juego. Eso es lo que lleva al escenario: criterio práctico, no motivación vacía.</p>
+      <div class="creds">
+        <div><b>50+</b><span>empresas asesoradas en Tijuana, Estados Unidos y otras partes de México</span></div>
+        <div><b>MÉTODO</b><span>fundadora de una consultoría de estrategia y marketing</span></div>
+        <div><b>Tec</b><span>Licenciatura en Mercadotecnia, Tecnológico de Monterrey</span></div>
+        <div><b>BNI</b><span>expresidenta de BNI Innovadores Tijuana · experiencia en marketing deportivo</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Atenea Kurevelis · Speaker Kit 2027</span><span>02</span></div>
+</section>
+
+<!-- 3 · LA CONFERENCIA -->
+<section class="page ink talk">
+  <div class="kicker">La conferencia</div>
+  <h2>¿Y si me <em>equivoco?</em></h2>
+  <p class="lead">Muchos estudiantes no se frenan por falta de ideas, sino por miedo a elegir mal. Esta conferencia les da herramientas para decidir con criterio aunque haya incertidumbre, desde la vida personal hasta el trabajo con negocios reales.</p>
+  <div class="acts">
+    <div><small>01 · El miedo</small><h3>«Sí quiero… pero ahorita no»</h3><p>Reconocer lo que nos congela y distinguir un límite real de una excusa.</p></div>
+    <div><small>02 · El criterio</small><h3>¿Qué quieres para ti?</h3><p>Dirección propia, en qué respaldar una decisión y a quién escuchar.</p></div>
+    <div><small>03 · El trabajo real</small><h3>Decidir con un negocio en juego</h3><p>Diagnóstico, marketing deportivo en tiempo real e IA como herramienta, con casos de más de 50 empresas.</p></div>
+    <div><small>04 · La práctica</small><h3>Tu siguiente paso</h3><p>Una dinámica en equipo y una herramienta que se llevan para seguir practicando.</p></div>
+  </div>
+  <div class="foot"><span>Atenea Kurevelis · Speaker Kit 2027</span><span>03</span></div>
+</section>
+
+<!-- 4 · FORMATOS -->
+<section class="page orange formats">
+  <div class="kicker">Formatos</div>
+  <h2>Una conferencia probada.<br><em>Cuatro formas de llevarla.</em></h2>
+  <div class="cards">
+    <div class="card hero"><div class="dur">CONFERENCIA · 60–75 MIN</div><h3>¿Y si me equivoco?</h3><p>La versión completa: historia, casos reales y una dinámica breve con todo el auditorio.</p><span class="tag">PROBADA EN VIVEMKT18</span><div class="for">Congresos de negocios y marketing, semanas académicas.</div></div>
+    <div class="card"><div class="dur">TALLER · 90–120 MIN</div><h3>De una idea a una primera prueba</h3><p>La conferencia en versión práctica: los equipos arman un modelo de negocio en 20 minutos y lo presentan.</p><div class="for">Incubadoras, centros de emprendimiento, materias de proyectos.</div></div>
+    <div class="card"><div class="dur">PREPARATORIA · 50 MIN</div><h3>¿Y si me equivoco de carrera?</h3><p>Las mismas herramientas aplicadas a elegir carrera y rumbo, con un lenguaje cercano a su edad.</p><div class="for">5.º y 6.º semestre, orientación vocacional, tutorías.</div></div>
+    <div class="card"><div class="dur">GENERAL · 45–60 MIN</div><h3>Decidir en entornos de cambio</h3><p>Versión breve con un solo caso, para públicos de cualquier carrera.</p><div class="for">Inducciones, semanas de liderazgo, eventos institucionales.</div></div>
+  </div>
+  <div class="foot"><span>Presencial o en línea · Tijuana y resto de México</span><span>04</span></div>
+</section>
+
+<!-- 5 · EL JUEGO -->
+<section class="page paper game">
+  <div class="grid">
+    <div>
+      <div class="kicker">La dinámica</div>
+      <h2>Un modelo de negocio<br>en <em>20 minutos.</em></h2>
+      <p class="lead">La ruleta de posibilidades combina una oferta, un público y una restricción al azar. Por equipos y contra reloj, los estudiantes encuentran una necesidad real, diseñan una propuesta y definen cómo comprobarla. Al final presentan su idea y reciben retroalimentación como si fueran clientes de una consultoría.</p>
+      <div class="wheels"><span>Oferta</span><i>×</i><span>Público</span><i>×</i><span>Restricción</span></div>
+      <p class="ex" style="font-size:18px;color:var(--grey);margin-top:14px">Ejemplo: remolque vehicular × personas con gatos × solo puedes vender por WhatsApp.</p>
+    </div>
+    <div class="rounds">
+      <div><small>01</small><b>El momento<span>¿Quién lo necesita y en qué situación?</span></b><em>4 min</em></div>
+      <div><small>02</small><b>La propuesta<span>¿Qué le entregas exactamente?</span></b><em>4 min</em></div>
+      <div><small>03</small><b>Canal y precio<span>¿Dónde te encuentra y cuánto pagaría?</span></b><em>4 min</em></div>
+      <div><small>04</small><b>La primera prueba<span>¿Qué harías esta semana para comprobarlo?</span></b><em>3 min</em></div>
+      <div><small>05</small><b>Pitch de 30 segundos<span>Y una pregunta de diagnóstico de Atenea</span></b><em>6 min</em></div>
+    </div>
+  </div>
+  <div class="foot"><span>Versión completa en taller · versión de 12 min en conferencia</span><span>05</span></div>
+</section>
+
+<!-- 6 · CASO VIVEMKT18 -->
+<section class="page ink case">
+  <div class="grid">
+    <div>
+      <div class="kicker">Caso · VIVEMKT18 · UABC</div>
+      <h2>Lo que pasó<br><em>cuando lo hicimos.</em></h2>
+      <div class="facts">
+        <div><small>Evento</small><span>VIVEMKT18, congreso de mercadotecnia de la UABC</span></div>
+        <div><small>Formato</small><span>Taller interactivo: conferencia con dinámica grupal</span></div>
+        <div><small>Asistentes</small><span>Aproximadamente 60 estudiantes</span></div>
+        <div><small>En la sala</small><span>Estudiantes tomando notas, grabando y participando en la ruleta</span></div>
+        <div><small>Después</small><span>Mensajes espontáneos de estudiantes durante los días siguientes</span></div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="photo">Foto: auditorio completo</div>
+      <div class="photo">Foto: dinámica en equipos</div>
+      <div class="photo">Foto: estudiantes tomando notas</div>
+    </div>
+  </div>
+  <div class="foot"><span>Atenea Kurevelis · Speaker Kit 2027</span><span>06</span></div>
+</section>
+
+<!-- 7 · LA VOZ DE LOS ESTUDIANTES -->
+<section class="page paper quotes">
+  <div class="kicker">La voz de los estudiantes</div>
+  <h2>Lo que nos escribieron <em>después.</em></h2>
+  <div class="qgrid">
+    <div class="q big"><p>Sinceramente fue la mejor del congreso. Si algún día das más conferencias o eventos, me encantaría estar.</p><small>Sofi · Estudiante, VIVEMKT18</small></div>
+    <div class="q big"><p>No me arrepiento para nada en haber elegido tu taller, aprendí mucho la verdad.</p><small>Estudiante, VIVEMKT18</small></div>
+    <div class="q big"><p>Me ayudó a ver de otra manera la toma de riesgos, ya no solo como mercadólogos sino también como persona.</p><small>Estudiante, VIVEMKT18</small></div>
+    <div class="q"><p>Muchas anotaciones… Recordé cuando inicié mi pequeño emprendimiento con solo $200 pesos, y con los consejos que diste en la plática de hoy, poder implementarlos.</p><small>Estudiante emprendedor, VIVEMKT18</small></div>
+    <div class="q"><p>Gracias por tomarte el tiempo de contarnos desde tu experiencia en el mundo real. Hoy me llevo algo nuevo y algo que inspira.</p><small>Estudiante, VIVEMKT18</small></div>
+    <div class="q"><p>Tus palabras llegaron a una parte profunda de mí y me inspiraron.</p><small>Estudiante, VIVEMKT18</small></div>
+  </div>
+  <div class="foot"><span>Mensajes citados con autorización de sus autores</span><span>07</span></div>
+</section>
+
+<!-- 8 · QUÉ GANA SU INSTITUCIÓN + CONTACTO -->
+<section class="page orange close">
+  <div class="grid">
+    <div>
+      <div class="kicker">Qué incluye</div>
+      <h2>Una conferencia no termina <em>con el aplauso.</em></h2>
+      <div class="steps">
+        <div><small>Antes</small><p>Llamada de 20 minutos para adaptar el contenido a su público, y un video corto de invitación para sus redes.</p></div>
+        <div><small>Durante</small><p>Conferencia o taller con dinámica, hoja de trabajo y sesión de preguntas.</p></div>
+        <div><small>Después</small><p>Encuesta breve por QR y un <b>reporte de impacto de una página</b> para su coordinación: asistencia, calificación, aprendizajes y fotos.</p></div>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="kicker" style="color:var(--lime)">Trabajemos juntos</div>
+      <h3>Llevemos esta experiencia a su comunidad en 2027.</h3>
+      <div class="rows">
+        <div><small>Correo</small>[correo@dominio.com]</div>
+        <div><small>WhatsApp</small>[+52 ___ ___ ____]</div>
+        <div><small>Instagram · LinkedIn</small>[@usuario] · [linkedin.com/in/…]</div>
+      </div>
+      <p class="note">Honorarios según formato y modalidad. Los viáticos se cotizan aparte para eventos fuera de Tijuana.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Atenea Kurevelis · Fundadora de MÉTODO</span><span>08</span></div>
+</section>
+
+</body>
+</html>
