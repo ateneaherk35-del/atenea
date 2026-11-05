@@ -94,7 +94,7 @@ Ofrece una experiencia completa y no solo «una plática»:
 
 **Durante el evento**
 - Una conferencia o taller de 50 a 90 minutos con dinámicas.
-- Una hoja de trabajo de una página: *«Mi primera decisión con intención»* o *«Mi siguiente paso»*.
+- Hoja de trabajo con *las 3 preguntas* y la *ruleta de posibilidades* (que ya tienes en HTML para descargar).
 - Preguntas y respuestas.
 
 **Después del evento** ← esto casi nadie lo ofrece
@@ -103,20 +103,43 @@ Ofrece una experiencia completa y no solo «una plática»:
 
 Así, cada evento genera la evidencia para vender el siguiente.
 
-### Temas: una conferencia principal y dos adaptaciones
+### Temas: una conferencia principal y versiones por público
 
-No vendas 3 conferencias distintas. Vende **una conferencia principal que ya probaste** y adáptala según el público. Todo lo que dicen los testimonios (miedo, toma de riesgos, empezar con $200, identificarse contigo) respalda *El fuego de empezar*. Los otros dos temas no tienen ninguna prueba todavía.
+Esta sección se basa en las diapositivas reales de VIVEMKT18 (16 diapositivas). **La conferencia que probaste no fue «El fuego de empezar».** Fue:
 
-| Versión | Para quién | Promesa | Estado |
+> **¿Y si me equivoco?** Mentalidad estratégica: cómo tomar mejores decisiones en entornos de cambio.
+> Cierre: *«No necesitas el camino pavimentado»*.
+
+Ese es el título que vendes, porque es el que tiene evidencia.
+
+**Nombre para la marca:** *No necesitas el camino pavimentado*. Es tuyo, se recuerda fácil y aparece dos veces en la conferencia (en tu historia y en el cierre). *¿Y si me equivoco?* funciona como gancho de apertura y como asunto de correo.
+
+#### Cómo está armada (4 actos)
+
+| Acto | Diapositivas | Qué pasa | ¿Se adapta? |
 |---|---|---|---|
-| **El fuego de empezar** (conferencia) | Congresos, inducciones y semanas de liderazgo | Pasar del miedo a la decisión: decidir con intención, aceptar el precio de ser principiante y dar el primer paso | ✅ Probada en VIVEMKT18 |
-| **De la idea a tu primer cliente** (taller) | Negocios, marketing, incubadoras | El mismo enfoque, pero aplicado: validar una idea, posicionarla y conseguir el primer cliente, con casos de MÉTODO y la IA como herramienta | 🔨 Por armar, a partir de la conferencia |
-| **Decidir sin tenerlo todo claro** (prepa) | 5.º y 6.º semestre, orientación vocacional | Cómo elegir carrera y rumbo con intención aunque haya miedo e incertidumbre | 🔨 Adaptación de la conferencia |
+| 1. El miedo | 1–2 | «¿Y si me equivoco?», «Sí quiero… pero ahorita no» | Igual para todos |
+| 2. Tu criterio | 3–6 | Qué quieres, tu historia («mi camino tampoco estaba pavimentado»), en qué te respaldas, a quién escuchas | Igual para todos |
+| 3. El trabajo real | 7–10 | Más de 50 empresas, diagnóstico («necesito vender más»), marketing deportivo, herramientas e IA | **Este es el bloque que cambias según el público** |
+| 4. Práctica y cierre | 11–16 | Las 3 preguntas, la ruleta de posibilidades, el ritmo de cada decisión, el regalo y el cierre | La dinámica se ajusta a cada público |
 
-**Por qué no incluir «Pensar estratégicamente en un mundo que cambia»:**
-- El título es abstracto y se parece al de cualquier otro conferencista.
-- Hablar de IA ya está muy visto y no es lo que los estudiantes valoraron de ti.
-- El pensamiento estratégico es tu sello, pero funciona mejor dentro de todas las versiones que como conferencia aparte.
+#### Lo que te distingue (y nadie más tiene)
+1. **Las 3 preguntas:** *¿Qué quiero conseguir? ¿En qué me respaldo? ¿Qué necesito comprobar?* Es tu método; dale nombre y repítelo en el kit, en redes y en cada versión.
+2. **La ruleta de posibilidades:** una dinámica divertida que se recuerda (por ejemplo, «grúas + dueños de gatos») y que además funciona como gancho para que te escriban: «Pídeme RULETA por Instagram».
+3. **Tu historia y los casos reales:** marketing deportivo y más de 50 empresas. Eso no lo puede contar un orador motivacional.
+
+Los testimonios coinciden: «me ayudó a ver de otra manera la toma de riesgos, ya no solo como mercadólogos sino también como persona» resume justo el paso del acto 2 al acto 3.
+
+#### Versiones
+
+| Versión | Para quién | Qué cambia | Estado |
+|---|---|---|---|
+| **No necesitas el camino pavimentado** (conferencia, 60–75 min) | Congresos de negocios y marketing, semanas académicas | Tal como la diste | ✅ Probada en VIVEMKT18 |
+| **De una posibilidad a una primera prueba** (taller, 90–120 min) | Incubadoras, emprendimiento, materias de proyectos | Acto 3 más corto. La ruleta se vuelve el ejercicio principal, por parejas, con la hoja «Situación, propuesta, supuesto y riesgo, primera prueba» (ya está en tu archivo de la ruleta) | 🔨 Adaptación |
+| **¿Y si me equivoco de carrera?** (prepa, 50 min) | 5.º y 6.º semestre, orientación vocacional | Quitas el acto 3 (empresas y diagnóstico). Aplicas las 3 preguntas a elegir carrera y rumbo, y la ruleta combina carreras con intereses o problemas reales | 🔨 Adaptación |
+| Versión general (45–60 min) | Inducciones, liderazgo, carreras que no son de negocios | Acto 3 reducido a un solo caso | 🔨 Adaptación |
+
+**Corrección a la recomendación anterior:** «Pensar estratégicamente en un mundo que cambia» no se descarta. **Es básicamente la conferencia que diste**, solo que con un título más genérico. Te quedas con el contenido y le pones tu propio título. «El fuego de empezar» sale, porque no es lo que presentaste.
 
 **Regla:** solo vendes lo que ya probaste. Arma un tema nuevo cuando una institución lo pida, no antes.
 
