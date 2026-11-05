@@ -40,6 +40,26 @@ Cada mensaje responde una duda distinta de quien decide. Úsalos así:
 | «Me transmitiste muchas cosas lindas… espero algún día poder transmitir eso que tú moviste en mí… con tu presencia en el escenario.» | **Presencia en el escenario** que genera conexión emocional | «¿Sabe hablar en público?» |
 | «Nos vemos en Forbes 30 under 30.» | **Te ven como un ejemplo a seguir** | «¿Los alumnos se van a identificar con ella?» |
 | Una asistente te escribió al día siguiente para pedirte ayuda con un proyecto digital. | **Las ganas de actuar duran más allá del evento** | «¿Pasa algo después del aplauso?» |
+| «No me arrepiento para nada en haber elegido tu taller, aprendí mucho la verdad.» | **Entre varios talleres, eligieron el tuyo y valió la pena** | «¿Va a atraer y retener asistentes?» |
+| «Me sentí muy identificado… me ayudó a ver de otra manera la toma de riesgos, ya no solo como mercadólogos sino también como persona.» | **Le sirve a su carrera y a su vida personal**, y no solo conectó con mujeres | «¿Tiene que ver con lo que estudian?» |
+| «Tus palabras llegaron a una parte profunda de mí y me inspiraron.» | **Impacto emocional profundo** | «¿Va a dejar huella?» |
+| «Me encantó por sus palabras y experiencias que nos brindaste.» | **Cuentas experiencias reales, no teoría** | «¿Tiene algo propio que contar?» |
+
+### Lo que se repite en los 9 mensajes
+
+| Tema | Cuántos lo mencionan | Cómo usarlo |
+|---|---|---|
+| Inspiración y conexión emocional | 5 o más | Es lo que más se nota, pero inspirar solo no basta para vender. Úsalo como respaldo. |
+| Se identificaron con ella (cercanía) | 3 («me sentí identificado», «Forbes 30 under 30», «poder transmitir eso») | **Tu diferenciador:** eres joven y alguien a quien quieren parecerse. |
+| Aplicación práctica (notas, implementar, toma de riesgos) | 3 | **Es lo que más convence a coordinaciones e incubadoras.** Ponlo al frente. |
+| Valoración del evento («la mejor del congreso», «no me arrepiento de haberlo elegido») | 2 | **Es lo que más convence a sociedades de alumnos y comités.** |
+
+**Lo que todavía falta:** pocos mensajes dicen *qué* van a hacer distinto. La próxima vez, recoge esa respuesta con la encuesta por QR («¿qué vas a hacer distinto?»). Ese dato es el que más convence a una coordinación.
+
+### Las 3 frases para la portada del caso VIVEMKT18
+1. «Sinceramente fue la mejor del congreso.»
+2. «No me arrepiento para nada en haber elegido tu taller.»
+3. «Me ayudó a ver de otra manera la toma de riesgos, ya no solo como mercadólogos sino también como persona.»
 
 > ⚠️ **No uses el mensaje de Fer como testimonio.** Habla de JIFU, una plataforma que mezcla forex, inversiones y una red de afiliados. A una universidad o a una prepa no le conviene ver tu marca junto a eso. Cuenta solo el hecho anónimo («una asistente me escribió al día siguiente con un proyecto») y no muestres la captura.
 
