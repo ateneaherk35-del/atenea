@@ -103,6 +103,23 @@ Ofrece una experiencia completa y no solo «una plática»:
 
 Así, cada evento genera la evidencia para vender el siguiente.
 
+### Temas: una conferencia principal y dos adaptaciones
+
+No vendas 3 conferencias distintas. Vende **una conferencia principal que ya probaste** y adáptala según el público. Todo lo que dicen los testimonios (miedo, toma de riesgos, empezar con $200, identificarse contigo) respalda *El fuego de empezar*. Los otros dos temas no tienen ninguna prueba todavía.
+
+| Versión | Para quién | Promesa | Estado |
+|---|---|---|---|
+| **El fuego de empezar** (conferencia) | Congresos, inducciones y semanas de liderazgo | Pasar del miedo a la decisión: decidir con intención, aceptar el precio de ser principiante y dar el primer paso | ✅ Probada en VIVEMKT18 |
+| **De la idea a tu primer cliente** (taller) | Negocios, marketing, incubadoras | El mismo enfoque, pero aplicado: validar una idea, posicionarla y conseguir el primer cliente, con casos de MÉTODO y la IA como herramienta | 🔨 Por armar, a partir de la conferencia |
+| **Decidir sin tenerlo todo claro** (prepa) | 5.º y 6.º semestre, orientación vocacional | Cómo elegir carrera y rumbo con intención aunque haya miedo e incertidumbre | 🔨 Adaptación de la conferencia |
+
+**Por qué no incluir «Pensar estratégicamente en un mundo que cambia»:**
+- El título es abstracto y se parece al de cualquier otro conferencista.
+- Hablar de IA ya está muy visto y no es lo que los estudiantes valoraron de ti.
+- El pensamiento estratégico es tu sello, pero funciona mejor dentro de todas las versiones que como conferencia aparte.
+
+**Regla:** solo vendes lo que ya probaste. Arma un tema nuevo cuando una institución lo pida, no antes.
+
 ### Formatos
 
 | Formato | Duración | Ideal para |
