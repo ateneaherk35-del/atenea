@@ -21,9 +21,10 @@ h3{font-size:30px;letter-spacing:-.02em;line-height:1.15}
 p{font-size:22px;line-height:1.45}
 .foot{position:absolute;left:96px;right:96px;bottom:30px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:.14em;opacity:.6;text-transform:uppercase}
 .photo{background:repeating-linear-gradient(135deg,#0000 0 14px,#0000000d 14px 28px);border:2px dashed currentColor;display:flex;align-items:center;justify-content:center;text-align:center;font-size:15px;letter-spacing:.12em;text-transform:uppercase;opacity:.75;padding:20px}
-.photo img{width:100%;height:100%;object-fit:cover}
+.pic{overflow:hidden;height:100%;min-height:0}.pic img{width:100%;height:100%;object-fit:cover;display:block}
+.gallery{display:grid!important;grid-template-columns:1fr 1fr!important;grid-template-rows:1fr!important;gap:16px;height:100%}
 /* 1 cover */
-.cover .grid{display:grid;grid-template-columns:1.25fr 1fr;gap:64px;flex:1}
+.cover .grid{display:grid;grid-template-columns:1.25fr 1fr;grid-template-rows:100%;gap:64px;flex:1;min-height:0}
 .cover h1{margin-top:10px}
 .cover .sub{font-size:30px;line-height:1.35;margin-top:40px;max-width:720px}
 .cover .who{margin-top:auto;font-size:20px;letter-spacing:.14em;font-weight:700}
@@ -31,7 +32,7 @@ p{font-size:22px;line-height:1.45}
 .cover .photo{height:100%;border-color:var(--lime);color:var(--lime)}
 .badge{display:inline-block;background:var(--lime);color:var(--ink);font-weight:700;font-size:16px;letter-spacing:.14em;padding:10px 16px;margin-bottom:30px}
 /* 2 bio */
-.bio .grid{display:grid;grid-template-columns:.85fr 1.4fr;gap:72px;flex:1;margin-bottom:24px}
+.bio .grid{display:grid;grid-template-columns:.85fr 1.4fr;grid-template-rows:100%;gap:72px;flex:1;min-height:0;margin-bottom:24px}
 .bio .photo{height:100%}
 .bio h2{font-size:66px}
 .bio .lead{font-size:21px;margin-top:22px;max-width:820px}
@@ -117,21 +118,21 @@ p{font-size:22px;line-height:1.45}
       <p class="sub">Cómo decidir cuando no tienes todas las respuestas.<br>Una conferencia y un taller de mentalidad estratégica para estudiantes.</p>
       <div class="who">ATENEA KUREVELIS<span>Estratega · Fundadora de MÉTODO · Conferencista</span></div>
     </div>
-    <div class="photo">Foto: Atenea en el escenario<br>de VIVEMKT18</div>
+    <div class="pic"><img src="img/escenario-portada.jpg" alt="Atenea Kurevelis presentando ¿Y si me equivoco? en VIVEMKT18" style="object-position:60% 35%"></div>
   </div>
 </section>
 
 <!-- 2 · QUIÉN ES -->
 <section class="page paper bio">
   <div class="grid">
-    <div class="photo">Retrato profesional</div>
+    <div class="pic"><img src="img/retrato.jpg" alt="Retrato de Atenea Kurevelis" style="object-position:45% 40%"></div>
     <div>
       <div class="kicker">Quién es Atenea</div>
       <h2>Estrategia del <em>mundo real,</em><br>contada por alguien<br>cercano a ellos.</h2>
-      <p class="lead">Atenea tiene 25 años. Fue atleta de alto rendimiento con beca en el Tec de Monterrey, donde estudió Mercadotecnia, y hoy dirige MÉTODO, una consultoría de estrategia comercial. Aprendió a decidir bajo presión en la cancha, y hoy lo hace con dueños de negocio que tienen dinero, equipos y clientes en juego. Eso es lo que lleva al escenario: criterio práctico, no motivación vacía.</p>
+      <p class="lead">Atenea tiene 25 años. Fue voleibolista de alto rendimiento con beca en el Tec de Monterrey, donde estudió Mercadotecnia, y hoy dirige MÉTODO, una consultoría de estrategia comercial. Aprendió a decidir bajo presión en la cancha, y hoy lo hace con dueños de negocio que tienen dinero, equipos y clientes en juego. Eso es lo que lleva al escenario: criterio práctico, no motivación vacía.</p>
       <div class="creds">
         <div><b>50+</b><span>empresas asesoradas en Tijuana, Estados Unidos y otras partes de México</span></div>
-        <div><b>Atleta</b><span>de alto rendimiento, becada por el Tec de Monterrey</span></div>
+        <div><b>Voleibol</b><span>atleta de alto rendimiento, becada por el Tec de Monterrey</span></div>
         <div><b>Tec</b><span>Licenciatura en Mercadotecnia · fundadora de MÉTODO</span></div>
         <div><b>BNI</b><span>expresidenta de BNI Innovadores Tijuana · experiencia en marketing deportivo</span></div>
       </div>
@@ -203,9 +204,8 @@ p{font-size:22px;line-height:1.45}
       </div>
     </div>
     <div class="gallery">
-      <div class="photo">Foto: auditorio completo</div>
-      <div class="photo">Foto: dinámica en equipos</div>
-      <div class="photo">Foto: estudiantes tomando notas</div>
+      <div class="pic"><img src="img/diagnostico-silueta.jpg" alt="Atenea explicando el mapa de diagnóstico de un negocio" style="object-position:55% 50%"></div>
+      <div class="pic"><img src="img/podio.jpg" alt="Atenea hablando junto al podio de la UABC" style="object-position:50% 45%"></div>
     </div>
   </div>
   <div class="foot"><span>Atenea Kurevelis · Speaker Kit 2027</span><span>06</span></div>
