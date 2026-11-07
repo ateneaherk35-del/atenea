@@ -274,3 +274,7 @@ Atenea señaló que la estructura aplicada no era la acordada. Al revisar el his
   - ~200 piezas → 10 M de vistas orgánicas en 3 días.
   - Clientes con eventos: 100 mil visitas al perfil en 1 día.
 - Sigue sin publicar.
+
+## 11. Publicación (7-nov-2026)
+
+Publicada la v2 desde Lovable (despliegue `c44b5ee4-2d4b-4afa-b7c1-e8bb9e6bd594`, URL de Lovable `https://metodo-registro.lovable.app`, dominio `registro.ateneakurevelis.com`). No se pudo verificar en vivo desde la sesión: el entorno no tiene acceso a esos dominios.
