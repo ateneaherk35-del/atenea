@@ -264,3 +264,13 @@ Atenea señaló que la estructura aplicada no era la acordada. Al revisar el his
 | 10 | Preguntas frecuentes |
 | 11 | CTA final (regresa al quiz del hero) |
 | 12 | Pie |
+
+## 10. VSL y prueba real (7-nov-2026, noche)
+
+- **VSL en el hero:** `https://youtu.be/H4BXH9VF9JU`, horizontal 16:9, con miniatura de YouTube y reproducción al hacer clic. Orden del hero: etiqueta → titular → VSL → subtítulo → quiz. En escritorio, el video va a la derecha. La foto de Atenea queda solo en "Quién te va a enseñar". Se eliminó la sección de video separada.
+- **Caso real:** se agregó una tarjeta con datos de la cuenta propia de Atenea: un video de 100 mil vistas le trajo más ventas que uno de 8 millones.
+- **Otros casos que tiene Atenea, sin usar por ahora** (de `contenido/vs-fashion-show-2026.md` y `linkedin/01-kit-arranque.md`):
+  - Despacho legal: 183 conversaciones, 6 clientes, 23 días. Requiere permiso del cliente.
+  - ~200 piezas → 10 M de vistas orgánicas en 3 días.
+  - Clientes con eventos: 100 mil visitas al perfil en 1 día.
+- Sigue sin publicar.
