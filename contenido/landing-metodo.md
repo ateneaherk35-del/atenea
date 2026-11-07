@@ -238,3 +238,29 @@ Aplicado en Lovable (vista previa, **sin publicar**), con el modelo **newsletter
 - Nuevo orden: problema → 4 módulos → quién enseña ("CASO REAL") → para quién es → lo que recibes + $2,600 fundador → qué pasa después → formulario → FAQ → CTA final.
 - Formulario: objetivo → experiencia → nombre + email (obligatorio) + WhatsApp (opcional). Sin correos duplicados, guarda UTM y referrer, y pregunta "¿Qué es lo que más te frustra hoy de tus anuncios?".
 - Botón fijo en móvil. Se quitaron "15 lugares" y "taller en vivo".
+
+## 9. Corrección (7-nov-2026, tarde)
+
+Atenea señaló que la estructura aplicada no era la acordada. Al revisar el historial de Lovable salieron dos errores:
+1. **Se había quitado el paso de perfil con 4 opciones**, cada una ligada a un reel y contada en `/admin`. Se reemplazó por "Nunca / Algunas veces / Cada mes" porque no se conocía ese requisito. **Se restauran las 4 opciones exactas:**
+   - "Nunca he corrido anuncios."
+   - "Solo uso "promocionar publicación"."
+   - "Uso Ads Manager, pero no le llego a la gente correcta."
+   - "Sí me llegan mensajes, pero no sé qué hacer con ellos y no se convierten en ventas."
+2. **No se había aplicado toda la auditoría.** La estructura final (aplicada en la vista previa, sin publicar):
+
+| # | Sección |
+|---|---|
+| 0 | Cinta |
+| 1 | **Hero con el quiz dentro** (objetivo → perfil → datos), visible en la primera pantalla del celular; foto debajo en móvil |
+| 2 | Problema ("Lo que de verdad está pasando con tu anuncio") |
+| 3 | VSL (oculto hasta tener URL) |
+| 4 | Lo que vas a construir (4 módulos) |
+| 5 | **Caso real** (métricas, capturas y testimonios desde `src/lib/proof.ts`; solo se muestran si hay datos reales) |
+| 6 | Quién te va a enseñar |
+| 7 | ¿Es para ti? |
+| 8 | Lo que recibes + $2,600 MXN |
+| 9 | Qué pasa después |
+| 10 | Preguntas frecuentes |
+| 11 | CTA final (regresa al quiz del hero) |
+| 12 | Pie |
