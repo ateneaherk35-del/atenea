@@ -43,7 +43,7 @@ Continuidad (mensual) para quien quiere seguimiento
 - **Mensaje del DM** (corto, un solo link):
   > ¡Hola! Aquí está 👉 [link]. Es mi newsletter gratis: cada semana te mando lo que estoy haciendo con IA en anuncios de Meta, con una marca real. Y cuando abra el curso, te enteras primero.
 - **Link con UTM, uno por reel**, para saber cuál trae suscriptores:
-  `https://[tu-dominio]/?utm_source=instagram&utm_medium=trial_reel&utm_campaign=lista_metodo&utm_content=reel01`
+  `https://registro.ateneakurevelis.com/?utm_source=instagram&utm_medium=trial_reel&utm_campaign=lista_metodo&utm_content=reel01`
   Cambia `reel01` por un nombre corto de cada video (`reel_segmentacion`, `reel_creativos`…). La landing guarda estos datos en cada registro.
 - **Recordatorio opcional en el DM** a las 24 h si no dio clic (si la herramienta lo permite).
 - **Métrica por reel:** comentarios → clics al link → suscriptores (columna `utm_content` en tu panel o CSV).
@@ -52,7 +52,7 @@ Continuidad (mensual) para quien quiere seguimiento
 
 ## 3. Plataforma de newsletter (pendiente)
 
-Mientras tanto, los registros viven en la base de datos de Lovable (panel de administración + CSV). Para elegir:
+Mientras tanto, los registros viven en la base de datos de Lovable (panel `/admin` + exportación a CSV, con columnas de UTM, referrer y la respuesta de "qué te frustra"). Para elegir:
 
 | Opción | A favor | En contra |
 |---|---|---|
@@ -150,8 +150,8 @@ Su meta es que lo que deja un cliente nuevo **pague el costo de conseguirlo en l
 
 1. Elegir plataforma de newsletter y dominio de envío.
 2. Configurar la palabra clave `METODO` y el DM **antes** de publicar los Trial Reels.
-3. Pegar la URL del VSL (en `VSL_VIDEO_URL` del proyecto de Lovable) cuando esté listo.
-4. Publicar la landing en Lovable (la vista previa no es la página pública).
+3. Pegar la URL del VSL en `VSL_VIDEO_URL` (`src/lib/workshop-video.ts` del proyecto de Lovable, o pedírselo al agente) cuando esté listo. Acepta YouTube, Vimeo, Bunny o un .mp4. Mientras esté vacío, la sección no se muestra.
+4. Publicar la landing en Lovable: los cambios del 7-nov están en la vista previa; `registro.ateneakurevelis.com` sigue mostrando la versión anterior hasta publicar.
 5. Aviso de privacidad.
 6. Escribir y mandar el primer *Notas de MĒTODO* la semana en que llegan los primeros suscriptores.
 7. Confirmar el precio en Hotmart ($2,600 MXN fundador, ¿y el precio normal?), la fecha de apertura y si las sesiones en vivo tienen cupo.

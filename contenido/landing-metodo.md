@@ -48,7 +48,7 @@ Marco de referencia: `contenido/landing-waiting-list-curso.md` y `contenido/vsl-
 ### Críticos (antes de mandar tráfico)
 1. **El hero no usa tu mejor gancho.** "Aprende a crear y gestionar tus campañas con IA" describe el curso, pero no dice un resultado ni contradice nada. El gancho fuerte ("no está fallando por la segmentación") está en la sección 6, **después del precio**, y es justo el título de la pestaña. Si tus anuncios o posts usan ese gancho, quien llega no lo ve arriba (falta de coherencia con el anuncio). → Subirlo al hero o justo debajo.
 2. **"Video en camino".** Un espacio vacío baja la confianza. → Quitar la sección hasta tener el video, o poner 3 capturas del proceso con IA mientras tanto.
-3. **Etiqueta "ELEMENT"** en la cita de la sección "Quién te va a enseñar". Es un texto de relleno de la plantilla. → Quitar o cambiar por "Caso real".
+3. **Etiqueta "ELEMENT"** en la cita de la sección "Quién te va a enseñar". *(Corrección 7-nov: no era texto de relleno, era el nombre de la marca real. Se cambió a "CASO REAL" para no nombrarla sin autorización.)*
 4. **Falta la fecha.** No dice cuándo abren las inscripciones ni cuándo son las sesiones. Sin fecha, "15 lugares" y "precio de fundador" no generan urgencia. → Fecha de apertura y fechas o horario de las sesiones.
 5. **Después del FAQ no hay botón.** La página termina sin llamado a la acción. → CTA final.
 6. **Contraste.** En el PDF, casi todos los titulares y textos del hero se ven gris claro. Si es la animación de entrada capturada a medias, no pasa nada. Si así se ven en vivo, se leen mal (sobre todo en celular y a pleno sol). → Revisarlo en el celular.
@@ -227,3 +227,14 @@ Botón fijo abajo: **Quiero entrar primero**.
 6. Regalo inmediato: ¿se hace el checklist o el prompt?
 7. Herramientas necesarias y presupuesto mínimo recomendado para anuncios.
 8. ¿Qué gancho usan tus anuncios o posts que llevan a la página? (para elegir el titular A, B o C)
+
+---
+
+## 8. Estado (7-nov-2026)
+
+Aplicado en Lovable (vista previa, **sin publicar**), con el modelo **newsletter + lista de espera** y el producto **curso grabado (4 módulos) + sesiones en vivo en Hotmart**. Ver `contenido/embudo-metodo.md`.
+- Hero con "Tu anuncio no está fallando por la segmentación.", botón "Quiero entrar primero" y prueba en una línea.
+- VSL controlado por `VSL_VIDEO_URL`: oculto mientras esté vacío.
+- Nuevo orden: problema → 4 módulos → quién enseña ("CASO REAL") → para quién es → lo que recibes + $2,600 fundador → qué pasa después → formulario → FAQ → CTA final.
+- Formulario: objetivo → experiencia → nombre + email (obligatorio) + WhatsApp (opcional). Sin correos duplicados, guarda UTM y referrer, y pregunta "¿Qué es lo que más te frustra hoy de tus anuncios?".
+- Botón fijo en móvil. Se quitaron "15 lugares" y "taller en vivo".
