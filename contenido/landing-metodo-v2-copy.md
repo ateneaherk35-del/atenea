@@ -169,3 +169,18 @@ Aviso legal en letra pequeña:
 3. **Titular:** A, B, C o D.
 4. **¿Qué foto va en el cierre?** Puede ser la de la conferencia o una nueva tuya con la laptop (como la de Shelby).
 5. Los otros casos (despacho legal, 10 M de vistas, eventos): ¿se agregan al bloque 3?
+
+---
+
+## 5. Decisiones finales (7-nov, noche) y lo que se aplicó
+
+- **Titular:** B.
+- **Prueba principal:** "+$500 mil pesos invertidos en Meta con mis clientes".
+- **Galería "Los archivos":**
+  - 4 páginas de estrategia: pilares 40/25/20/15, plan de 4 semanas con hooks/formatos/CTAs (2 páginas) y secuencia de historias + medición. Salen del brandbook de la marca real, con el nombre de la marca, la marca de producto aliada y el nombre del archivo fuente tapados con barras.
+  - 4 creativos hechos con IA (confirmado por Atenea).
+  - Imágenes preparadas en el scratchpad de la sesión con `pdftoppm` + redacción por coordenadas de `pdftotext -bbox`.
+- **El documento compartido no incluye** la temporalidad del año, el customer journey ni los niveles de consciencia (Atenea los mencionó). Pendiente: el archivo donde estén.
+- **Urgencia:** el precio de fundador *no* está confirmado como único. El cierre queda "LA LISTA ENTRA *primero.*" en lugar de "una sola vez".
+- **Foto del cierre:** la de la conferencia (no hay otra todavía).
+- Aplicado en Lovable en un solo cambio, sin publicar.
