@@ -38,7 +38,7 @@ Continuidad (mensual) para quien quiere seguimiento
 ## 2. Trial Reels → DM → landing
 
 - **Configura la palabra clave antes de publicar.** Quien comenta en un Trial Reel no te conoce. Si el DM no sale en automático, lo pierdes.
-- **Palabra clave sin acento:** `METODO` (o `IA`). Con acento, mucha gente la escribe mal y la automatización no responde.
+- **Palabra clave: `IA`** (decisión de Atenea, 7-nov). Como es muy corta, la regla debe ser **"el comentario es exactamente IA"** (no "contiene"), o se dispara con "gracIAs", "materIA", etc. Agregar variantes: `ia`, `Ia`, `IA!`, `IA 🙌`.
 - **Herramienta:** ManyChat u otra automatización de DMs de Instagram.
 - **Mensaje del DM** (corto, un solo link):
   > ¡Hola! Aquí está 👉 [link]. Es mi newsletter gratis: cada semana te mando lo que estoy haciendo con IA en anuncios de Meta, con una marca real. Y cuando abra el curso, te enteras primero.
@@ -149,7 +149,7 @@ Su meta es que lo que deja un cliente nuevo **pague el costo de conseguirlo en l
 ## 8. Pendientes de Atenea
 
 1. Elegir plataforma de newsletter y dominio de envío.
-2. Configurar la palabra clave `METODO` y el DM **antes** de publicar los Trial Reels.
+2. Configurar la palabra clave `IA` y el DM **antes** de publicar los Trial Reels (pasos en `contenido/manychat-palabra-ia.md`).
 3. Pegar la URL del VSL en `VSL_VIDEO_URL` (`src/lib/workshop-video.ts` del proyecto de Lovable, o pedírselo al agente) cuando esté listo. Acepta YouTube, Vimeo, Bunny o un .mp4. Mientras esté vacío, la sección no se muestra.
 4. Publicar la landing en Lovable: los cambios del 7-nov están en la vista previa; `registro.ateneakurevelis.com` sigue mostrando la versión anterior hasta publicar.
 5. Aviso de privacidad.
