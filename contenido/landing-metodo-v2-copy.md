@@ -47,7 +47,9 @@ Reemplaza el copy de `contenido/landing-metodo.md`. Lo técnico se queda igual: 
 
 **Etiqueta (píldora):** GRATIS // CADA SEMANA EN TU CORREO
 
-**Titular. 4 opciones** (la primera es la idea de Atenea, pulida):
+**Titular elegido (7-nov): B.** *Le enseñé a la IA a hacer mis anuncios de Meta.* ***Te enseño a hacerlo con los tuyos.***
+
+Opciones que se consideraron:
 
 - **A (recomendada):** *Enséñale a la IA a hacer tus anuncios de Meta.* ***Todo el año.***
 - **B:** *Le enseñé a la IA a hacer mis anuncios de Meta.* ***Te enseño a hacerlo con los tuyos.***
@@ -90,10 +92,14 @@ Bloque tipográfico, centrado, sin tarjetas:
 > Tu creativo decide a quién le habla.
 > Y si contestas tarde, la venta se la lleva otro.
 
-Debajo, la prueba en grande (la tarjeta que ya existe, rediseñada como cifra gigante):
+Debajo, la prueba en grande (**decisión de Atenea, 7-nov**: la cifra principal es la inversión en Meta y se muestran los archivos reales):
 
-> **100 mil vistas > 8 millones.**
-> Un video de 100 mil vistas me vendió más que uno de 8 millones. Le hablaba a la persona correcta.
+> **+$500 mil [MXN/USD por confirmar] invertidos en Meta.**
+> Eso es lo que te enseño: lo que aprendimos con dinero real, no con teoría.
+
+Galería: capturas de los "archivos" con los que salen las campañas (creativos, ángulos, prompts y la revisión del agente), con nombres de marcas tapados. Atenea las manda.
+
+(La prueba de 100 mil vistas > 8 millones puede quedar como segunda línea.)
 
 Botón de texto: **Quiero que la IA haga esto por mí →**
 
